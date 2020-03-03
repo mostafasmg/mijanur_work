@@ -1,0 +1,109 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  color: #2b2b2b;
+}
+
+/* header style start 
+.header_fourth {
+  width: 100%;
+  background: url(../images/second/13.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}*/
+
+/*.header_fifth {
+  width: 100%;
+  background: url(../images/home/2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header_sixth {
+  width: 100%;
+  background: url(../images/second/9.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header_seventh {
+  width: 100%;
+  background: url(../images/third/3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}*/
+
+/* header style end */
+/* about style start */
+.fourth_about {
+  background: url(../images/Page_2_img/section-2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+.fourth_about .left {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+.fourth_about .left img {
+  display: block;
+}
+.fourth_about .right {
+  padding: 5rem 0;
+  position: relative;
+}
+.fourth_about .right h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.fourth_about .right h5 {
+  border-right: 2px solid #2A3C6D;
+  text-align: right;
+  padding-right: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.fourth_about .right p {
+  margin: 20px 0;
+}
+h4.text-white_p.mb-3 {
+    font-family: hgrskp;
+    color: #ffffff;
+}
+@media screen and (max-width: 992px) {
+  .fourth_about .left {
+    display: none;
+  }
+}
+/* about style end */
+/* reservation style start */
+.reservation {
+  background: url(../images/second/3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+/* reservation style end */
+/* map style start */
+.map {
+  margin-bottom: -7px;
+}
+
+/* map style end */
+
+/*# sourceMappingURL=fourth_page.css.map */

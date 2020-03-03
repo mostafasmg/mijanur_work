@@ -1,0 +1,34 @@
+@charset "Shift-jis";
+
+
+dl:after,
+ul:after,
+.fix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	overflow:hidden;
+}
+
+dl,
+ul,
+.fix {
+	display: inline-block;
+	min-height: 1%;
+}
+
+/* Hides from IE-mac\*/
+*html dl,
+*html ul,
+*html .fix {
+	height: 1%;
+}
+
+dl,
+ul,
+.fix {
+	display: block;
+}
+/*End hide from IE-mac */

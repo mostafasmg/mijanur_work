@@ -1,0 +1,128 @@
+@media (min-width: 768px){
+	
+}
+@media screen and (max-width: 767px){
+	.makeit_circle {
+		width: 120px!important;
+		height: 120px!important;
+		line-height: unset!important;
+		margin: 0 auto;
+		font-size: 11px!important;
+	}
+	.makeit_a {
+		margin-top: -120px;
+	}
+	.background_how_half2 {
+		height: 100px;
+	}
+	.makeit_circle0 {
+		margin-top: -16px!important;
+	}
+	.mekeit_2{
+		width: 6px!important;
+	}
+	.makeit_circle9 {
+		margin-top: 0px!important;
+	}
+	.makeit_circle0 p{
+		margin-bottom:0px!important;
+	}
+	.makeit_section_img {
+		margin-top: 50px;
+	}
+	.makeit_section p {
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #4b7bbe;
+    font-weight: 500;
+}
+	.section_icon_makeit{
+		padding:0px;
+	}
+	.result_img_main_icon{
+		width:100%!important;
+	}
+	.section_icon_makeit h3{
+		font-size: 14px!important;
+		margin-top: 8px;
+		margin-bottom: 14px;
+	}
+	.section_icon_makeit p{
+		font-size: 10px;
+	}
+	.past_result_n {
+    font-size: 11px;
+    font-weight: bold;
+}
+	.past_result_n2{
+		font-size: 10px;
+		font-weight: bold
+	}
+	.past_result_m {
+    font-size: 9px;
+    font-weight: bold;
+}
+	.clip_board  {
+		margin-top: 10px;
+		width: 50%;
+	}
+	.clip_board_2   {
+		margin-top: 10px;
+		width: 63%;
+	}
+	.result_bg_main_4{
+		margin-top:0px;
+	}
+	.background_how_half_com {
+		margin-top: 20%;
+	}
+	.company_col_2 span.con_text_2 {
+		font-size: 10px;
+		font-weight: 600;
+	}
+.company_section {
+    bottom: 360px;
+}
+	/* .company_col_2 { */
+		/* margin: 0px !important; */
+		/* padding: 0px 13% 0 9%!important; */
+	/* } */
+	/* .ta_left { */
+		/* text-align: center!important; */
+	/* } */
+	.ove_com {
+		font-size: 25px;
+	}
+	.com_imp {
+		font-size: 25px;
+	}
+	.com_jp_1 {
+		font-size: 14px;
+	}
+.company_col_logo a img {
+    width: 60%;
+}
+	.con_p{
+		padding-left:15px;
+		padding-right:15px;
+		margin-top: 25px;
+	}
+.company_upper {
+    font-size: 14px;
+    left: 5%;
+    top: 67%;
+    padding: 25px 6px;
+}
+.company_sec_1 {
+    margin-bottom: 400px;
+}
+.company_upper_2 {
+    font-size: 17px;
+    top: -16%;
+    left: 17px;
+    z-index: 1;
+}
+	.company_sec_2 {
+		margin: 5% 0 8%;
+	}
+}

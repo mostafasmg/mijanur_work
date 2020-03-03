@@ -1,0 +1,354 @@
+@charset "Shift-jis";
+
+/**********************************************************************
+ +
+ + システム共通処理を定義します
+ + 
+ + このファイルは編集しないで下さい。
+ + Do not edit.
+ +
+ **********************************************************************/
+/**********************************************************************
+ +
+ + フォームデザイン
+ +
+ **********************************************************************/
+/* テキストボックス（全共通） */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+input[type="password"]
+{
+    padding:6px 8px;
+    font-size:1.1em;
+    color:#333;
+    border:solid 1px #ccc;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+textarea
+{
+    padding:6px 8px;
+    font-size:1.4em;
+    line-height:1.2em;
+    color:#333;
+    border:solid 1px #ccc;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+/* ボタン（全共通） */
+input[type="submit"],
+input[type="button"]
+{
+/*  2019.07.23 S: ボタンの色をダイヨシカラーに変更 */
+/*
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid #15aeec;
+    background-color: #49c0f0;
+    background-image: -webkit-linear-gradient(top, #49c0f0, #2cafe3);
+    background-image: linear-gradient(to bottom, #49c0f0, #2cafe3);
+    border-radius: 4px;
+    color: #fff;
+    -webkit-transition: none;
+    transition: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+*/
+
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid #E3381D;
+    background-color: #E3381D;
+    background-image: -webkit-linear-gradient(top, #E3381D, #E3381D);
+    background-image: linear-gradient(to bottom, #E3381D, #E3381D);
+    border-radius: 4px;
+    color: #fff;
+    -webkit-transition: none;
+    transition: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+/*  2019.07.23 E: ボタンの色をダイヨシカラーに変更 */
+}
+input[type="submit"]:hover,
+input[type="button"]:hover
+{
+/*  2019.07.23 S: ボタンの色をダイヨシカラーに変更 */
+/*
+    cursor: pointer;
+    border:1px solid #1090c3;
+    background-color: #1ab0ec;
+    background-image: -webkit-linear-gradient(top, #1ab0ec, #1a92c2);
+    background-image: linear-gradient(to bottom, #1ab0ec, #1a92c2);
+*/
+    cursor: pointer;
+    border:1px solid #D3321D;
+    background-color: #D3421D;
+    background-image: -webkit-linear-gradient(top, #D3421D, #D3421D);
+    background-image: linear-gradient(to bottom, #D3421D, #D3421D);
+/*  2019.07.23 E: ボタンの色をダイヨシカラーに変更 */
+}
+input[type="submit"]:active,
+input[type="button"]:active
+{
+/*  2019.07.23 S: ボタンの色をダイヨシカラーに変更 */
+/*
+    background: #1a92c2;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .2);
+    color: #1679a1;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .5);
+*/
+    background: #D3321D;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .2);
+    color: #E3381D;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .5);
+}
+input[type="submit"]:focus,
+input[type="button"]:focus
+{
+    border:2px solid #FF6633;
+}
+.btn_basic
+{
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    font-size:1.15em;
+}
+.btn_login
+{
+    min-width: 218px;
+    height: 40px;
+    line-height: 40px;
+    font-size:1.25em;
+    font-weight: bold;
+}
+.btn_search
+{
+    width: 45px;
+    height: 31px;
+    line-height: 31px;
+    font-size:1.0em;
+}
+.btn_select
+{
+    width: 45px;
+    height: 28px;
+    line-height: 28px;
+    font-size:1.0em;
+}
+.btn_unselect
+{
+    width: 100px;
+    height: 31px;
+    line-height: 31px;
+    font-size:1.0em;
+}
+.btn_modal_close
+{
+    width: 100px;
+    height: 31px;
+    line-height: 31px;
+    font-size:1.2em;
+}
+.btn_edit
+{
+    width: 100px;
+    height: 31px;
+    line-height: 31px;
+    font-size:1.1em;
+}
+.btn_back_list
+{
+    width: 200px;
+    height: 40px;
+    line-height: 31px;
+    font-size:1.3em;
+    font-weight: bold;
+}
+.btn_blue_edit
+{
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    font-size:1.15em;
+}
+.btn_ref_address
+{
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+}
+.zip_search
+{
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+}
+.readonly
+{
+    background-color:#EBEBE4;
+}
+
+/* セレクトボックス（全共通） */
+select::-ms-expand {
+    display: none;
+}
+select {
+    padding: 7px 27px 7px 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color:#333;
+    border:solid 1px #ccc;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    background: #eee;
+    background: url(../image/arrow01.png) right 50% no-repeat, -webkit-linear-gradient(top, #fff 0%,#efebe1 100%);
+    background: url(../image/arrow01.png) right 50% no-repeat, linear-gradient(to bottom, #fff 0%,#efebe1 100%);
+    background-size: 20px, 100%;
+}
+select:disabled  {
+    background: url(../image/arrow02.png) right 50% no-repeat, -webkit-linear-gradient(top, #fff 0%,#efebe1 100%);
+    background: url(../image/arrow02.png) right 50% no-repeat, linear-gradient(to bottom, #fff 0%,#efebe1 100%);
+    background-size: 20px, 100%;
+}
+
+/* チェック、ラジオボックス（全共通） */
+input[type="checkbox"],
+input[type="radio"]
+{
+    margin-right:3px;
+    cursor: pointer;
+}
+.tblStyleInquiry td label
+{
+    margin-right:13px;
+    cursor: pointer;
+}
+
+
+/* フォーム AllAreaに対応 */
+.AllArea .tblStyleInquiry
+{
+    width:100%;
+}
+.AllArea .tblStyleInquiry caption
+{
+    border:solid 1px #F5F5F5;
+    padding:10px;
+    background-color:#07569f;
+    color:#FFFFFF;
+    font-weight:bold;
+    font-size:18px;
+}
+.AllArea .tblStyleInquiry th ,
+.AllArea .tblStyleInquiry td
+{
+    min-height:34px;
+    height:34px;
+    border:dotted 1px #EEEEEE;
+    padding:10px 15px;
+}
+.AllArea .tblStyleInquiry .bbc_black
+{
+    border-bottom-color:#444;
+}
+.AllArea .tblStyleInquiry tr:nth-child(odd)
+{
+    background-color: #fff;
+}
+.AllArea .tblStyleInquiry tr:nth-child(even)
+{
+    background-color: #fffeef;
+}
+
+/**********************************************************************
+ +
+ + マージン
+ +
+ **********************************************************************/
+.mt5
+{
+    margin-top:5px;
+}
+.mt10
+{
+    margin-top:10px;
+}
+.mt20
+{
+    margin-top:20px;
+}
+.mt30
+{
+    margin-top:30px;
+}
+.mt40
+{
+    margin-top:40px;
+}
+.mt50
+{
+    margin-top:50px;
+}
+.mb5
+{
+    margin-bottom:5px;
+}
+.mb10
+{
+    margin-bottom:10px;
+}
+.mb20
+{
+    margin-bottom:20px;
+}
+.ml5
+{
+    margin-left:5px;
+}
+.ml10
+{
+    margin-left:10px;
+}
+.ml20
+{
+    margin-left:20px;
+}
+.ml40
+{
+    margin-left:40px;
+}
+.ml50
+{
+    margin-left:50px;
+}
+.mr5
+{
+    margin-right:5px;
+}
+.mr10
+{
+    margin-right:10px;
+}
+.mr20
+{
+    margin-right:20px;
+}

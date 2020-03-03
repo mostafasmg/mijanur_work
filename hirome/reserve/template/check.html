@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.0/css/ionicons.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- vegas slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.css">
+<!-- HEADTAG_START -->
+<!-- HEADTAG_END -->
+<!-- icon -->
+    <!-- css -->
+    <link rel="stylesheet" href="++[sys_systemroot]../css/master.css">
+	<link rel="stylesheet" href="++[sys_systemroot]../css/faq.css">
+    <link rel="stylesheet" href="++[sys_systemroot]../css/canvas.css">
+    
+    <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
+<script type="text/javascript">
+$(document).ready(function()
+{
+    $("#init_focus").focus();
+
+});
+
+function btnBack_Click()
+{
+    location.href = "./input.php";
+}
+
+// お客様情報入力へ
+function btnCheck_Click()
+{
+    var message = "こちらの内容でご注文を確定します。\r\nよろしいですか？";
+    
+    if (confirm(message))
+    {
+        location.href = "./order.php";
+    }
+}
+
+</script>
+</head>
+<body>
+
+<!-- メニューバー開始 -->
+<div  class="header" id="header">
+    <nav class="navbar navbar-expand-lg nav_custom ">
+            <div class="container mob_con" >
+                <a class="navbar-brand" href="../index.html">
+                    <img src="++[sys_systemroot]../images/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="ion-android-menu"></span> -->
+					<img src="image/mbotton.png" class="button_jd">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link " href="++[sys_systemroot]../index.html">ホーム </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="++[sys_systemroot]../reserve/">御予約はこちら</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="++[sys_systemroot]../second_page.html">仕出し弁当</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="++[sys_systemroot]../third_page.html">御法要の膳</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="++[sys_systemroot]../fourth_page.html">精進料理/点心</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="++[sys_systemroot]../seventh.html">パーティーオードブル</a>
+                        </li>
+    					<li class="nav-item">
+                            <a class="nav-link" href="++[sys_systemroot]../all_products_list.html">全商品一覧</a>
+                        </li>
+    					<li class="nav-item">
+                            <a class="nav-link " href="++[sys_systemroot]../faq.html">よくあるご質問</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="++[sys_systemroot]../fifth.html">配達の御案内</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="++[sys_systemroot]../sixth.html">会社概要</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+</div>
+<!-- メニューバー終了 -->
+<div id="all">
+
+
+    <div id="contents" >
+
+    	<div id="reseve_message" >
+        	<h2>ご注文内容確認</h2>
+        </div>
+        
+        <form method="post"  name="fdata" id="fdata" action="customer.php">
+        <div class="inquiryArea">
+	            <form method="post" name="fdata" id="fdata" enctype="multipart/form-data">
+	                <div class="fix">
+	                    <div class="LeftArea_wmax">
+	                        <table class="tblStyleInquiry">
+	                        	<tbody>
+    	                        	<tr class="tbl_line"><th><hr></th><td><hr></td><td><hr></td><td><hr></td></tr>
+    	                            <tr>
+    	                                <th>氏 名</th>
+    	                                <td>++[lcl_name]</td>
+    	                                
+    	                            </tr>
+    	                            <tr>
+    	                                <th>か な</th>
+    	                                <td>++[lcl_kana]</td>
+    	                                
+    	                            </tr>
+    	                            <tr class="tbl_line"><th><hr></th><td><hr></td><td><hr></td><td><hr></td></tr>
+    	                            <tr>
+    	                                <th>メールアドレス</th>
+    	                                <td>++[lcl_mail]</td>
+    	                            </tr>
+    	                            <tr class="tbl_line"><th><hr></th><td><hr></td><td><hr></td><td><hr></td></tr>
+    	                            
+    	                            <tr rowspan="3">
+    	                                <th>お届け先住所</th>
+    	                                <td>
+    	                                	++[lcl_zipcode]
+    	                                </td>
+    	                                
+    	                            </tr>
+    	                            <tr>
+    	                            	<th></th>
+    	                                <td class="bt1 ptb25">
+    	                                	++[lcl_address]
+    	                                </td>
+    	                            </tr>
+    	                            <tr class="tbl_line"><th><hr></th><td><hr></td><td><hr></td><td><hr></td></tr>
+    	                            <tr>
+    	                                <th valign="top" class="contact_us_dt">お届け日時</th>
+    	                                <td>
+    	                                	++[lcl_delivery_date]
+    	                                	++[lcl_delivery_time]
+    	                                </td>
+    	                            </tr>
+    	                            <tr class="tbl_line"><th><hr></th><td><hr></td><td><hr></td><td><hr></td></tr>
+    	                            <tr>
+    	                                <th>TEL</th>
+    	                                <td>
+    	                                	++[lcl_tel]
+    	                                </td>
+    	                            </tr>
+    	                            <tr class="tbl_line"><th><hr></th><td><hr></td><td><hr></td><td><hr></td></tr>
+    	                            <tr>
+    	                                <th valign="top" class="">ご依頼事項</th>
+    	                                <td>
+    	                                	++[lcl_note]
+    	                                </td>
+    	                            </tr>
+    	                            
+    	                            <tr class="tbl_line"><th><hr></th><td><hr></td><td><hr></td><td><hr></td></tr>
+    <!-- ORDER_START -->
+    	                            <tr>
+    	                                <th valign="top" class="">++[lst_title]</th>
+    	                                <td class="">
+    	                                    ++[lst_dishname]
+    	                                </td>
+    	                                <td class="w100 t-right">
+    	                                    ++[lst_qty] 個
+    	                                </td>
+    	                                <td class="w200 t-right">
+    	                                    ++[lst_price_disp] 円
+    	                                </td>
+    	                            </tr>
+    <!-- ORDER_END -->
+                                    <tr class="tbl_line"><th><hr></th><td><hr></td><td><hr></td><td><hr></td></tr>
+    	                            <tr>
+    	                                <th valign="top" class="">合計金額</th>
+    	                                <td class="">
+    	                                </td>
+    	                                <td class="w100">
+    	                                </td>
+    	                                <td class="w200  t-right">
+    	                                    ++[lcl_total_price] 円
+    	                                </td>
+    	                            </tr>
+    	                            <tr>
+    	                                <th valign="top" class="">税込合計金額</th>
+    	                                <td class="">
+    	                                </td>
+    	                                <td class="w100">
+    	                                </td>
+    	                                <td class="w200  t-right">
+    	                                    ++[lcl_total_taxprice] 円
+    	                                </td>
+    	                            </tr>
+	                            </tbody>
+	                        </table>
+	                    </div>
+	                </div>
+	                <div class="fix SubmitBtnArea">
+                        <p><input type="button" class="reserve_button f-left" value="お客様情報入力へ戻る" onclick="btnBack_Click(); return false;"  /></p>
+                        <p><input type="button" class="reserve_button f-right" value="注文を確定する" onclick="btnCheck_Click(); return false;" /></p>
+                    </div>
+	            </form>
+	        </div>
+
+            
+        
+        </form>
+    </div>
+    
+<!-- MESSAGEAREA_START -->
+<!-- MESSAGEAREA_END -->
+<footer id="footer">
+        <div class="container">
+            <p>c Copyright 2010 料理・仕出し ㈱ヒロメ All Rights Reserved.</p>
+        </div>
+</footer>
+<!-- script -->
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="../vendors/jquery.nicescroll/jquery.nicescroll.min.js"></script>
+    <!-- vegas slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.js"></script>
+    <!-- custom js -->
+    <script src="../js/custom.js"></script>
+<!--all終了-->
+</div>
+<!--all終了-->
+</body>
+<style>
+.mob_con{
+	position:relative;
+}
+.reserve_button {
+    background: #f8f08a;
+    border: 0;
+    padding: 8px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+    border-radius: 4px;
+    height: 50px;
+}
+@media (max-width: 991.98px){
+.navbar-nav {
+    position: fixed;
+    background: #f8f08a;
+    top: 86px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: scroll;
+}
+}
+</style>
+</html>

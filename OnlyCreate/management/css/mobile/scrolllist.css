@@ -1,0 +1,73 @@
+@charset "Shift-jis";
+#sl_main
+{
+    margin-top:10px;
+}
+.sl_table
+{
+    width:100%;
+    border:1px solid #DDDDDD;
+    border-collapse:collapse;
+    font-size:16px
+}
+.sl_table td
+{
+    border:1px solid #DDDDDD;
+    height:16px;
+}
+.sl_table td .listbtn
+{
+    vertical-align:top;
+}
+.sl_table th
+{
+    border:1px solid #DDDDDD;
+    font-size:16px
+    line-height:28px;
+}
+.sl_table th
+{
+/*  2019.07.23 S: リストの色をダイヨシカラーに変更 */
+/*  background-color:#04A3DB; */
+    background-color:#E3381D;
+/*  2019.07.23 E: リストの色をダイヨシカラーに変更 */
+    color:#FFFFFF;
+}
+.sl_table tr td
+{
+    height:28px;
+}
+
+.sl_data
+{
+    table-layout: fixed;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.sl_data th
+{
+    color:#000000;
+    background-color:#FFFFCC;
+    text-align:center;
+    font-weight:normal;
+    height:auto;
+    width:150px;
+}
+.sl_data td
+{
+    width:100%;
+}
+.sl_table th.number
+{
+    width:80px;
+    text-align:center;
+}
+.sl_table th.detail
+{
+    text-align:center;
+    background-color:#CCCCCC;
+}
+.sl_footer
+{
+    margin-bottom:20px;
+}

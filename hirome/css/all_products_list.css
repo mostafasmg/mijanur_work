@@ -1,0 +1,109 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  color: #2b2b2b;
+}
+.delivery_page_1{
+	background: url(../images/bg_m.jpg);
+}
+/* header style start */
+.header_third {
+  width: 100%;
+  background: url(../images/home/1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* header style end */
+/* about style start */
+.about {
+  background: url(../images/Page_3_img/saection1-3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* about style end */
+/* gallery style start */
+.gallery {
+  background: url(../images/Page_3_img/saection2-3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* gallery style end */
+/* reservation style start */
+.reservation {
+  background: url(../images/second/15.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.reservation .content .input_field input {
+  background: #E47776;
+}
+.reservation .content button {
+  background: #E47776;
+}
+.reservation .content button:hover {
+  background: #dc4d4b;
+}
+
+/* reservation style end */
+/* schedule style start */
+.schedule {
+  padding: 5rem 0 4rem;
+/*  background: url(../images/Page_2_img/section-5.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.schedule h4 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.schedule .item {
+  text-align: center;
+  border: 2px solid #2A3C6D;
+  border-radius: 4px;
+  padding: 2rem;
+  margin-bottom: 30px;
+}
+.schedule .item h5 {
+  font-weight: bold;
+  color: #2A3C6D;
+}
+.schedule .item p {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+/* schedule style end */
+
+/*# sourceMappingURL=third_page.css.map */
+
+.products_block
+{
+  display:table;
+}
+
+.products_block img
+{
+    width:100px;
+    height:auto;
+    display:table-cell;
+    margin-right:10px;
+}
+
+
+.products_block div
+{
+    display:table-cell;
+    vertical-align:top;
+}

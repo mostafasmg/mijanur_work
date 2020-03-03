@@ -1,0 +1,380 @@
+@charset "Shift-jis";
+/**********************************************************************
+ +
+ + システムで共通使用のClassを定義します。 (モバイルファイル)
+ +
+ **********************************************************************/
+
+/**********************************************************************/
+.red 
+{
+    color:#FF0000;
+}
+.blue 
+{
+    color:#0000FF;
+}
+.purple 
+{
+    color:#FF00FF;
+}
+.orange 
+{
+    color:#ff8c00;
+}
+.green 
+{
+    color:#008000;
+}
+.glay 
+{
+    color:#999999;
+}
+.required
+{
+    color:#FF0000;
+    margin-left:-15px;
+}
+/**********************************************************************/
+/*position class*/
+/**********************************************************************/
+.t-left 
+{
+    text-align:left;
+}
+.t-center 
+{
+    text-align:center;
+}
+.t-right 
+{
+    text-align:right;
+}
+.f-left 
+{
+    float:left;
+}
+.f-right 
+{
+    float:right;
+}
+
+/**********************************************************************/
+/*font class*/
+/**********************************************************************/
+.bold 
+{
+    font-weight:bold;
+}
+.normal 
+{
+    font-weight:normal;
+}
+.f10 
+{
+    font-size:90%;
+}
+.f14 
+{
+    font-size:110%;
+}
+.f16 
+{
+    font-size:130%;
+}
+
+/**********************************************************************/
+/* NEWシステム追加 */
+/**********************************************************************/
+.h1-title
+{
+    margin-left:20px;
+    color:#FFFFFFF;
+    font-size:130%;
+}
+.h1-titleArea
+{
+    margin-top:10px;
+    height:38px;
+    background-image:url(../../image/h1bg.png);
+    background-repeat:repeat-x;
+    text-align:left;
+    
+    font-size:110%;
+    border-radius:10px 10px 0px 0px;
+    
+    padding-top:15px;
+    color:#FFFFFF;
+}
+.login-logo
+{
+    max-width:80%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.login-box
+{
+    margin-left:10px;
+    margin-right:10px;
+    background-color:#F5F5F5;
+    border:solid 1px #ccc;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.tblLogin
+{
+    border:0px;
+    width:100%;
+}
+.tblLogin td
+{
+    height: 50px;
+}
+.tblLogin caption
+{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.tblLogin .wfull
+{
+    width:100%;
+    box-sizing: border-box;
+}
+.btn_login
+{
+    height: 40px;
+    line-height: 40px;
+    font-size:1.25em;
+    font-weight: bold;
+}
+.inquiryArea
+{
+    background-color:#F5F5F5;
+    text-align:left;
+    padding:20px;
+    margin-bottom:10px;
+    border-radius:0px 0px 10px 10px;
+}
+.controlArea
+{
+    margin-top:10px;
+    margin-left:5px;
+    margin-right:5px;
+}
+.inquiryArea .outline
+{
+    background-color:#545454;
+    color:#FFFFFF;
+    padding:5px;
+    font-size:120%;
+    margin-bottom:10px;
+}
+.tblStyleInquiry
+{
+    width:100%;
+}
+.tblStyleInquiry th
+{
+    font-size:1.2em;
+    color:#333;
+    vertical-align:bottom;
+}
+.tblStyleInquiry td
+{
+    font-size:1.2em;
+    height: 50px;
+    vertical-align:top;
+}
+.tblStyleInquiry .wfull
+{
+    width:100%;
+    box-sizing: border-box;
+}
+.tblStyleInquiry .whalf
+{
+    width:50%;
+    box-sizing: border-box;
+}
+.EndMessageArea
+{
+    background-color:#F5F5F5;
+    border-radius:0px 0px 10px 10px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.EndMessageArea p
+{
+    font-size:120%;
+    clear: both;
+    padding-bottom:20px;
+}
+.errMessageArea
+{
+    border-style:double;
+    border-width:4px;
+    background:#FFF000;
+    padding:5px;
+    text-align:left;
+    margin-bottom:15px;
+}
+.errMessageArea .errMessage
+{
+    color:#F00;
+    font-size:130%;
+    font-weight:bold;
+}
+.infoMessageArea
+{
+    border-style:double;
+    border-width:4px;
+    background:#98fb98;
+    padding:5px;
+    text-align:left;
+    margin-bottom:15px;
+}
+.infoMessageArea .infoMessage
+{
+    color:#000;
+    font-size:130%;
+    font-weight:bold;
+}
+.h1-titleArea #btnTitleBack
+{
+    background: #fff  url(../../image/pageicon/return.png) left 80% no-repeat;
+    background-position: 8px 7px;
+    line-height:24px;
+
+    height:24px;
+    width:68px;
+    font-size:1.0em;
+    padding-top:3px;
+    padding-left:7px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    color: #333333;
+    -webkit-transition: none;
+    transition: none;
+    
+    margin-top:-4px;
+    margin-right:10px;
+}
+/**********************************************************************/
+/* カテゴリタブ                                                       */
+/**********************************************************************/
+.ListCategory
+{
+    margin-bottom:20px;
+    text-align:left;
+}
+.ListTitelBack
+{
+    width:700px;
+    color: #FFFFFF;
+    background-color: #6D6B6A;
+    border:1px solid #CCCCCC;
+}
+.ListTitel
+{
+    padding: 3px 0 3px 10px;
+    border-left: #333333 4px solid;
+    font-size: 120%;
+    font-weight:bold;
+    text-align:left;
+}
+.ListMenu
+{
+    margin-top:15px;
+    margin-left:10px;
+}
+#custom-head
+{
+    text-align:left;
+    padding-top:5px;
+    padding-left:5px;
+}
+#custom-head .active
+{
+/*  2019.07.23 S: ボタンの色をダイヨシカラーに変更 */
+/*   background-color:#04A3DB; */
+    background-color:#E3381D;
+/*  2019.07.23 E: ボタンの色をダイヨシカラーに変更 */
+}
+#custom-head .not
+{
+    background-color:#C3C3C3;
+}
+.custom-tab
+{
+    float:left;
+    width:120px;
+    height:20px;
+    color:#FFFFFF;
+    text-align:center;
+    padding-top:6px;
+    font-weight:bold;
+    margin-right:10px;
+    text-decoration: none;
+    border-radius: 5px 5px 0px 0px;
+}
+.FuncBlock
+{
+    min-height:160px;
+    width:100px;
+    float:left;
+}
+.FuncBlock a
+{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+}
+.InitHide
+{
+    visibility:hidden;
+}
+.FuncName
+{
+    height:50px;
+    background-color: #E1FFFF;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #69CAEA;
+    padding:5px;
+    border-radius: 10px;
+}
+.ListGroup
+{
+    min-width:120px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:5px;
+    margin-right:5px;
+    padding:10px;
+    border-radius: 10px;
+}
+.ListGroup .GroupName
+{
+    font-size:110%;
+    font-weight:bold;
+    width:100px;
+    color:#FFFFFF;
+#    background-color: #72BE1E;
+/*  2019.07.23 S: ダイヨシカラーに変更 */
+/*    background-color: #04A3DB; */
+    background-color: #E3381D;
+/*  2019.07.23 E: ダイヨシカラーに変更 */
+    padding-top:5px;
+    padding-bottom:5px;
+    text-align:center;
+    border-radius: 20px;
+}

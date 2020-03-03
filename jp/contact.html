@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Imprest Co. Ltd.</title>
+  <link rel="icon" href="image/icon.png" type="image/icon type">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+</head>
+<body id="result_page">
+  
+<!--nav section start-->
+<nav class="navbar navbar-default navbar-fixed-top">
+  
+	<div class="container-fluid">
+			<div class="navbar-header logo">
+			  <a href="index.html"><img src="image/logo.png" alt=""></a>
+			</div>
+			<div class="logo">
+			    <div  href="javascript:void(0)" class="three-bar " onclick="openNav(); myFunction(this);" >
+				  <div class="bar1"></div>
+				  <div class="bar2"></div>
+				  <div class="bar3"></div>
+				</div>
+				<script>
+					function myFunction(x) {
+					  x.classList.toggle("change");
+					}
+					var click = 0;
+					function openNav() {
+					if (click == 0) {
+					  document.getElementById("mySidenav").style.right = "0";
+					  click = 1;
+					  } else {
+					  document.getElementById("mySidenav").style.right = "-400px";
+						click = 0;
+					  }
+					}
+				</script>
+			</div>
+<div id="mySidenav" class="sidenav">
+<!-- <a href="it-business.html">お知らせ</a> -->
+  <a href="./">HOME</a>
+  <a href="makeit.html">MAKE IT</a>
+  <a href="how-to.html">HOW TO</a>
+  <a href="result.html">RESULTS</a>
+  <a href="company-profile.html">会社情報</a>
+  <a href="recruit.html">採用情報</a>
+  <a class="" href="contact.html">お問い合わせ</a>
+  <div class="last_c_a jpen">
+	<span><a class="jp" >JP</a></span> / <span><a class="en" href="./en/index.html">EN</a></span>
+  </div>
+</div>
+	</div>
+</nav>
+<!--nav section end-->
+
+<div class="container-fluid padding_ziro_nx contact_bg_main">	
+<div class="container contact_con">	
+		<div class="row ">
+			<div class="col-md-12 col-12 ta_center contact_col ">
+			 <span class="con_text_1">CONTACT</span><br>
+			 <a href="#" class="con_a_a">お問い合わせ</a>
+			</div>
+		</div>	
+</div>
+</div>
+
+<div class="container-fluid padding_ziro_nx contact_bg_main2">	
+	<div class="container contact_con_22">	
+			<div class="row ">
+				<div class="col-md-12 col-12 ta_left contact_col_2 ">
+				 <span class="con_text_2">業務システムやアプリケーション開発、ネットワーク構築のご相談や、情報技術、保守、<br>
+										パッケージソフト、コンピューターに関するお悩みなど、<br>
+										お困りの際はお気軽に、電話またはEメールにてお問い合わせください。<br>
+										専属のスタッフがお伺いし、丁寧且つわかりやすくご説明さしあげます。</span>
+				</div>
+			</div>	
+			<div class="row ">
+				<div class="col-md-12 col-12 ta_center contact_col_3 ">
+				 <a class="con_text_3">お問い合わせ</a>
+				</div>
+			</div>	
+			<div class="row contact_col_4_row ">
+				<div class="col-md-4 col-12  padding_ziro_nx  ta_center contact_col_4_1 ">
+					<a class="con_text_4">電話でのお問い合わせ</a>
+				</div>
+				<div class="col-md-8 col-12 ta_left contact_col_5 ">
+					 <span class="con_text_5">tel. 052-232-0097</span><br>
+					 <span class="con_text_5_small">受付時間 午前10時ー午後6時</span><br>
+				</div>
+			</div>	
+<!--
+			<div class="row contact_col_4_row ">
+				<div class="col-md-4 col-12 padding_ziro_nx ta_center contact_col_4">
+					<a class="con_text_6">電話でのお問い合わせ</a>
+				</div>
+				<div class="col-md-8 col-12 ta_left padding_ziro_nx contact_col_5">
+					 <span class="con_text_7_small">*は必須項目です</span><br>
+				</div>
+			</div>	
+-->
+	</div>
+<!--
+	<div class="container contact_con_3">	
+	<form action="#">	
+			<div class="row">
+				<div class="col-md-3 border_right_b ta_center_mob">
+					<label for="お名前">お名前</label> 
+				</div>
+				<div class="col-md-5">
+				  	<div class="form-group">
+					  <input class="form-control" type="text" name="name_1" id="name_1"> 
+					</div>
+				</div>		
+			</div>
+			<div class="row">
+				<div class="col-md-3 border_right_b ta_center_mob" >
+					<label for="フリガナ">フリガナ</label> 
+				</div>
+				<div class="col-md-5">
+				  	<div class="form-group">
+					  <input class="form-control" type="text" name="フリガナ" id="フリガナ"> 
+					</div>
+				</div>		
+			</div>
+			<div class="row">
+				<div class="col-md-3 border_right_b ta_center_mob">
+					<label for="メールアドレス">メールアドレス*</label> 
+				</div>
+				<div class="col-md-5">
+				  	<div class="form-group">
+					  <input class="form-control" type="text" name="メールアドレス" id="メールアドレス" required> 
+					</div>
+				</div>		
+			</div>
+			<div class="row">
+				<div class="col-md-3 border_right_b ta_center_mob">
+					<label for="電話番号">電話番号*</label> 
+				</div>
+				<div class="col-md-5">
+				  	<div class="form-group">
+					  <input class="form-control" type="text" name="電話番号" id="電話番号" required> 
+					</div>
+				</div>		
+			</div>
+			<div class="row">
+				<div class="col-md-3 border_right_b ta_center_mob">
+					<label for="お問い合わせ内容">お問い合わせ内容*</label> 
+				</div>
+				<div class="col-md-5 ta_center_mob_not">
+				  	<div class="form-check">
+					 <input type="checkbox" class="form-check-input position-static Checkbox_1"  id="Checkbox_1" value="">
+					<label class="form-check-label" for="Checkbox_1">システム導入について</label>
+					</div>
+					<div class="form-check">
+					 <input type="checkbox" class="form-check-input position-static Checkbox_2"  id="Checkbox_2" value="">
+					<label class="form-check-label" for="Checkbox_2">既存システムリニューアルについて </label>
+					</div>
+					<div class="form-check">
+					 <input type="checkbox" class="form-check-input position-static Checkbox_3"  id="Checkbox_3" value="">
+					<label class="form-check-label" for="Checkbox_3">システムコンサルティングについて</label>
+					</div>
+					<div class="form-check">
+					 <input type="checkbox" class="form-check-input position-static Checkbox_4"  id="Checkbox_4" value="">
+					<label class="form-check-label" for="Checkbox_4">弊社パッケージシステムについて</label>
+					</div>
+					<div class="form-check">
+					 <input type="checkbox" class="form-check-input position-static Checkbox_1"  id="Checkbox_1" value="">
+					<label class="form-check-label" for="Checkbox_5">その他のお問い合わせ</label>
+					</div>
+				</div>		
+			</div>
+			<div class="row">
+				<div class="col-md-3 border_right_b ta_center_mob">
+					<label for="システムに関する">システムに関する<br>費用について*</label> 
+				</div>
+				<div class="col-md-5 ta_center_mob">
+				  	<div class="form-group form_con">
+					  <span class="form_con">50万円以下</span> 
+					</div>
+				</div>		
+			</div>
+			
+			<div class="row">
+				<div class="col-md-3 border_right_b ta_center_mob">
+					<label for="質問">質問*</label> 
+				</div>
+				<div class="col-md-5 ta_center_mob">
+				  	<div class="form-group">
+						<textarea class="form-control" rows="7" name="質問" id="質問"></textarea>
+					</div>
+				</div>		
+			</div>
+			<div class="row">
+				<div class="col-md-3 border_right_b btn_div_1">
+				
+				</div>
+				<div class="col-md-5 ta_center_mob" >
+						<button class="btn submit_button" type="submit">送　　信</button>
+				</div>		
+			</div>
+	</form>			
+	</div>
+</div>
+-->
+
+
+
+
+<!--footer section start-->
+<div class="container-fluid padding_ziro result_bg">	
+	<div class="row-fluid">
+			<div class="col-md-6 col-12 padding_ziro_nx">
+				<div class="row row_foot">
+					<div class="col-md-12 ">
+						<a href="index.html"><img src="image/logo.png" alt="Imprest" class="bg_img_resault"></a>
+					</div>
+					<div class="col-md-12 rsul_text_1">
+							株式会社インプレスト
+					</div>
+					<div class="col-md-12 rsul_text_2">
+							〒460-0003<br>
+							愛知県名古屋市中区錦1丁目7-15<span class=""><br></span>
+							50KTビル　3F
+					</div>
+					<div class="col-md-12 rsul_text_3">
+							TEL. 052-232-0097
+					</div>
+					<div class="col-md-12 rsul_text_3">
+							<section class="map">
+							
+								<iframe
+								   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d560.1249894943859!2d136.8939383758125!3d35.17180922515086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600376d714fed8e7%3A0x117221d27abda0b2!2z44CSNDYwLTAwMDMg5oSb55-l55yM5ZCN5Y-k5bGL5biC5Lit5Yy66Yym77yR5LiB55uu77yX4oiS77yR77yV!5e0!3m2!1sja!2sjp!4v1568008469293!5m2!1sja!2sjp"
+								   width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>
+						   </section>
+
+					</div>
+				</div>
+			</div>
+	</div>
+</div>
+
+
+<div class="container-fluid padding_ziro_nx result_bg_2">	
+	<div class="container">
+		<div class="row ta_left ">
+			<div class="col-md-12  ">
+					IMPREST Co.,Ltd.
+			</div>
+			<div class="col-md-4 col-4 footer_tx_l ">
+							MAKE IT<br>
+							-クラウド<br>
+							-ハンディターミナル<br>
+							-ICタグ<br>
+							-カメラ<br>
+							-工場・倉庫<br>
+							-ソーラーパネル<br>
+							-福祉サービス<br>
+							-スマホアプリ<br>
+							-ロボット<br>
+			</div>
+			<div class="col-md-4 col-4 ">
+							HOW TO<br>
+							-発注・受注<br>
+							-ヒアリング<br>
+							-提案書・見積もりの提示<br>
+							-発注・受注<br>
+							-要件定義<br>
+							-基本設計<br>
+							-詳細設計<br>
+							-開発<br>
+							-運営テスト<br>
+							-確認<br>
+							-納品<br>
+							-運用<br>
+							-保守<br>
+			</div>
+			<div class="col-md-4 col-4">
+							RESULT<br>
+							-販売管理システム<br>
+							-生産管理システム<br>
+							-在庫管理システム<br>
+							-勤怠管理システム<br>
+							-受注管理システム<br>
+							-保険請求システム<br>
+							-写真管理システム<br>
+			</div>	
+				
+			
+		
+			
+		</div>	
+	</div>
+</div>
+
+
+<div class="container-fluid result_bg_33">	
+	
+		<div class="row flex_rev">
+			<div class="col-md-2 ">
+					 
+			</div>
+			<div class="col-md-9 middle_footer_8 ">
+			
+					<div class="row home_row">
+						<div class="col-md-2 col-2 home_a1">
+							<a href="index.html"><span>HOME</span></a>
+						</div>
+						<div class="col-md-3 col-4 home_a2">
+							<a href="company-profile.html"><span>COMPANY PROFILE</span>
+						</div>
+						<div class="col-md-2 col-2 home_a3">
+							<a href="recruit.html"><span>RECRUIT</span></a>
+						</div>
+						<div class="col-md-3 col-4 home_a4">
+							<a href="privacy-policy.html"><span>PRIVACY POLICY</span></a>
+						</div>
+					</div>
+			</div>
+			<div class="col-md-1 padding_ziro_nx contact_f_D ta_center">
+			<a href="contact.html" class="contact_f">
+					<div class="inline_mob"><img src="image/message_box.png" class="message_box"></div>
+					<span class="conus_text">CONTACT US</span>
+			</a>		
+			</div>	
+		</div>	
+</div>
+
+<div class="container-fluid result_bg_44">	
+<div class="row">
+
+			<div class="col-md-12 padding_ziro_nx ">
+<div class="container ">	
+	
+		<div class="row ta_center_mob line_one_mob">
+
+			<div class="col-md-12 ">
+				<span class="copyight_text">Copyright c IMPERST Co.,Ltd. All Rights Reserved</span><br>
+				<span class="copyight_text_2">当サイトに掲載のコピーおよび画像等、すべてのデータを無断で複写・転載することは、著作権法等で禁じられています。</span>
+			</div>	
+		</div>	
+</div>
+</div>
+</div>
+</div>
+
+
+<!--footer section end-->
+<style>
+</style>
+</body>
+</html>

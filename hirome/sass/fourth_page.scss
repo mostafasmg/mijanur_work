@@ -1,0 +1,103 @@
+@import "partials/init";
+@import "partials/variable";
+@import "partials/mixins";
+
+/* header style start */
+.header_fourth {
+    width: 100%;
+    background: url(../images/second/13.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header_fifth {
+    width: 100%;
+    background: url(../images/home/2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header_sixth {
+    width: 100%;
+    background: url(../images/second/9.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header_seventh {
+    width: 100%;
+    background: url(../images/third/3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* header style end */
+
+
+/* about style start */
+.fourth_about {
+    background: url(../images/Page_2_img/section-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    .left {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        img {
+            display: block;
+        }
+    }
+    .right {
+        padding: 5rem 0;
+        position: relative;
+
+
+        h2 {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+        h5 {
+            border-right: 2px solid $secondary-color;
+            text-align: right;
+            padding-right: 20px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        p {
+            margin: 20px 0;
+        }
+    }
+}
+@media screen and (max-width: 992px)  {
+    .fourth_about .left {
+        display: none;
+    }
+}
+/* about style end */
+
+
+
+
+
+/* reservation style start */
+.reservation {
+    background: url(../images/second/3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+/* reservation style end */
+
+
+
+/* map style start */
+.map {
+    margin-bottom: -7px;
+}
+/* map style end */

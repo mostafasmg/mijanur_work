@@ -1,0 +1,195 @@
+@charset "Shift-jis";
+/**********************************************************************
+ +
+ + システムの根幹部分の定義を行います。
+ +
+ **********************************************************************/
+
+/**********************************************************************/
+/*reset*/
+/**********************************************************************/
+* 
+{
+    margin:0;
+    padding:0;
+}
+body 
+{
+    color:#333333;
+/*    background:#FFFFFF; */
+    background:#E3381D;
+    font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Osaka,sans-serif;
+    font-size:78%;
+    line-height:1.4;
+}
+h1, h2, h3, h4, h5, h6 
+{
+    font-size:100%;
+}
+table 
+{
+    font-size:100%;
+    line-height:1.4;
+    border-collapse:collapse;
+    border-spacing:0;
+}
+th 
+{
+    text-align:left;
+}
+img 
+{
+    border:0;
+    vertical-align:bottom;
+}
+ul li 
+{
+    list-style:none;
+}
+ol 
+{
+    padding-left:18px;
+    *padding-left:24px;
+    _padding-left:24px;
+}
+address 
+{
+    font-style:normal;
+}
+/**********************************************************************/
+/*link setting*/
+/**********************************************************************/
+a:link 
+{
+    color:#333;
+    text-decoration:underline;
+}
+a:visited 
+{
+    color:#333;
+    text-decoration:underline;
+}
+a:hover 
+{
+    color:#333;
+    text-decoration:none;
+}
+
+/**********************************************************************/
+/*layout*/
+/**********************************************************************/
+#all 
+{
+    width:100%;
+    background:#FFFFFF;
+    text-align:center;
+}
+#head-line 
+{
+    width:100%;
+    border-top:solid 5px #04a3db;
+}
+#head_out
+{
+    width:100%;
+    background-image:url(../image/bg-pattern.png);
+    background-repeat:repeat;
+}
+#head 
+{
+    width:1040px;
+    margin:0 auto;
+    text-align:left;
+    margin-top:0px;
+}
+#logoarea
+{
+    margin-right:10px;
+    float:left;
+}
+#systemname
+{
+    width:740px;
+    height:37px;
+    background-image:url(../image/headbg.png);
+    background-repeat:repeat-x;
+    font-size:150%;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-align:right;
+    padding-top:5px;
+    padding-right:100px;
+}
+#companyname
+{
+    font-size:120%;
+    font-weight:bold;
+    padding-top:5px;
+    color:#3e6330;
+}
+#systemtextarea
+{
+    padding-top:20px;
+}
+#p_logout
+{
+    width:70px;
+    color:#FFFFFF;
+    background-color:#CC3131;
+    margin-right:10px;
+    padding:5px;
+    text-align:center;
+    text-decoration: none;
+    float:right;
+    border-radius: 5px;
+}
+#p_home
+{
+    width:70px;
+    color:#FFFFFF;
+    background-color:#04A3DB;
+    margin-right:10px;
+    padding:5px;
+    text-align:center;
+    text-decoration: none;
+    float:right;
+    border-radius: 5px;
+}
+#p_logintext
+{
+    margin-right:200px;
+    float:right;
+/*  2019.07.23 S: ダイヨシカラーに変更 */
+    color:#FFFFFF;
+/*  2019.07.23 E: ダイヨシカラーに変更 */
+}
+#p_head-under
+{
+    height:37px;
+    background-image:url(../image/head-bg01.jpg);
+    background-repeat:repeat-x;
+}
+#contents 
+{
+    width:1040px;
+    margin:0 auto;
+    margin-top:20px;
+}
+#footer
+{
+	margin-top:30px;
+    height:100%;
+    background-image:url(../image/footer-bg01.png);
+    background-repeat:repeat-x;
+    background-color:#E3381D;
+}
+#copy
+{
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:20px;
+/*  2019.07.23 S: ダイヨシカラーに変更 */
+    color:#FFFFFF;
+/*  2019.07.23 E: ダイヨシカラーに変更 */
+}
+

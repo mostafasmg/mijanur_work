@@ -1,0 +1,334 @@
+@media only screen and (max-width: 577px) {
+	.width_50{
+		width:50%;
+	}
+	.administrative3 p{
+		margin-top:0px;
+	}
+	.administrative3 {
+	 margin-top: 0px; 
+	}
+}
+@media only screen and (max-width: 767px) {
+	ul.nav.navbar-nav li a {
+    color: #000;
+	}
+	
+	.cancel_btn {
+    font-size: 14px;
+    padding: 5% 30%;
+	white-space: nowrap;
+	}
+	.submit_button {
+    font-size: 14px;
+    padding: 5% 11%;
+    white-space: nowrap;
+	}
+	.sub_row{
+		padding-left:13%;
+		padding-right:13%;
+	}
+	.select_1 {
+    margin-left: 5%;
+	}
+	.t_input{
+		padding-left:0;
+	}
+	.t_row {
+    padding-left: 10%;
+	}
+	.t_form {
+    text-align: left;
+    color: #666666;
+    margin-top: 15px;
+	}
+	.form-control {
+    width: 80%;
+    margin-left: 10%;
+	}
+	.hr_contact{
+		display:none;
+	}
+	.form-check{
+		margin-bottom: 15px;
+	}
+	.form-check,
+	.form-group{
+		margin-top: 15px;
+	}
+	.only_check{
+		padding-left: 10%;
+	}
+	.border_right_b{
+    text-align: left;
+    background-color: #d4d4d4;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 10%;
+    border-right: 0;
+	}
+	label {
+    padding-left: 0;
+	}
+	.only_pc{
+		display:none;
+	}
+	.tb-11 {
+    background-color: #f4f3f4;
+	}
+	.tb-22 {
+    background-color: #fff;
+	}
+	.only_m{
+		text-align:center;
+	}
+	.msg_img_mobile{
+		width: 55%;
+	}
+	.msg_img{
+		display:none;
+	}
+	.msg_img {
+		width: 50%;
+	}
+	.message_img{
+		text-align:center;
+	}
+	.message-1{
+		font-size:10px;
+	}
+	.message-2{
+		font-size:25px;
+	}
+	.advisorys2{
+		width:40%;
+	}
+	.advisorys3{
+		width:60%;
+	}
+	.advisory h3{
+		font-size:14px;
+	}
+	.advisory p{
+		font-size:14px;
+	}
+	.footer_body{
+		margin-top:30px;
+	}
+	.footer_tx_h1 {
+		font-size: 20px;
+	}
+	.footer_tx_h2 {
+		font-size: 20px;
+	}
+	.dis-none-moble{
+		display:none;
+	}
+	.footer_content{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.labor_bur{
+		margin-bottom: 0px;
+	}
+	.information {
+		border: none;
+		padding-bottom: 0px;
+	}
+	.information p {
+		margin-bottom: 0px;
+	}
+	.informa{
+		display:none;
+	}
+	.logo-text a{
+		font-size: 12px;
+	}
+	.padding_mar {
+		margin-top: 0px;
+	}
+	.padding_mar1 {
+		margin-top: 0px;
+	}
+	a.logo-jl-button{
+		padding: 4px 28px;
+	}
+	p.logo-jl-42 {
+		font-size: 8px;
+	}
+	span.bfak {
+		font-size: 12px;
+	}
+	.close_consultant h2 {
+		font-size: 12px;
+		line-height: 25px;
+	}
+	.close_consultant h3 {
+		font-size: 11px;
+		line-height: 20px;
+	}
+	.arraer_gd {
+		margin-top: 20px;
+	}
+	.arraer p {
+		font-size: 17px;
+	}
+	.administrative h2 {
+		font-size: 14px;
+	}
+	.lab_icon {
+		margin-right: 11px;
+	}
+	.lab_text h4 {
+		font-size: 15px;
+	}
+	.lab_text p {
+		font-size: 10px;
+	}
+	.lab_text {
+		padding-left: 4px;
+	}
+	.w_80{
+		max-width:100%;
+	}
+	.labor_bureau {
+		background: #fff;
+		margin-top: 10px!important;
+	}
+	.advisory {
+		margin-left: 0px;
+	}
+	.admin2{
+		display:none;
+	}
+	.admin {
+		margin-top: 0px;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	/* .col-md-12{ */
+	/* padding-left:0; */
+	/* padding-right:0; */
+
+}
+@media only screen and (max-width: 991px) {
+	.informa{
+		text-align:center;
+	}
+	.top_bg_img {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-right: 0; 
+	}
+	.dis-none-moble a {
+    font-size: 11px;
+	}
+	.footer_tx_h4 {;
+    font-size: 11px;
+	}
+	.footer_tx_h3, .footer_tx_h5{
+		font-size:10px;
+	}
+	.footer_tx_h1 {
+    font-size: 20px;
+	}
+	ul.nav.navbar-nav li {
+		border-bottom: 1px solid!important;
+		padding-bottom: 15px!important;
+	}
+	.full_w{
+		width:unset;
+	}
+	.logo_main{
+		display:none;
+	}
+	.phone_j{
+		width:100%;
+		display: none;
+	}
+	.lab_text p {
+		margin-bottom: 0px;
+		font-size: 8px;
+	}
+	.lab_icon {
+		margin-right: 7px;
+	}
+	.main_menu ul li {
+		padding-left: 14px;
+		padding-right: 14px;
+	}
+	.main_menu{
+		display:none;
+	}
+	.navbar-header {
+		width: 100%;
+	}
+	
+	img.img_flow2 {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 1050px) {
+	.logo-text a {
+    font-size: 22px;
+	}
+	.logo-jl-42,span.bfak{
+    font-size: 11px;
+	}
+	p.logo-jl-4 {
+    margin-bottom: 0;
+}
+}
+@media only screen and (min-width: 992px) {
+	.navbar-inverse{
+		display:none;
+	}
+	.main_menu ul li {
+		width: 19.7%;
+	}
+	
+}
+@media only screen and (min-width: 1367px){
+	.left_phone a .logo-jl-3 {
+		font-size: 26px;
+	}
+	.left_phone{
+		width:50%;
+	}
+	
+}
+@media only screen and (min-width: 768px){
+	.only_m{
+		display:none;
+	}
+	.msg_img_mobile{
+		display:none;
+	}
+	.informa2{
+		display:none;
+	}
+	.dis-n-nmob{
+        display:none;
+    }
+	.admin{
+		display:none;
+	}
+}
+@media only screen and (min-width: 767px) and (max-width: 992px){
+	.labor_bur {
+		padding: 0px;
+	}
+	
+}
+@media only screen and (min-width: 767px) and (max-width: 1199px){
+	.labor_bur {
+		padding: 0px;
+	}
+	.information a {
+    font-size: 10px;
+	}
+	.advisory {
+		margin-left: 0px;
+	}
+	
+}

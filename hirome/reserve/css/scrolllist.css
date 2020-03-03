@@ -1,0 +1,155 @@
+@charset "Shift-jis";
+#sl_main
+{
+	position:relative;
+	width:960px;
+	height:420px;
+    background-color:#CCCCCC;
+    border:1px solid #DDDDDD;
+	z-index: 9;
+	
+	font-weight:200;/* 3/20 */
+}
+#sl_main a
+{
+	color:#555555;
+}
+.sl_table
+{
+	border:1px solid #bbbbbb;/* 3/20 */
+	border-collapse:collapse;
+	table-layout:fixed;
+	font-size:16px
+}
+.sl_table td
+{
+	border:1px solid #bbbbbb;/* 3/20 */
+	height:16px;
+    white-space: nowrap;
+	overflow:hidden;
+}
+.sl_table td .listbtn
+{
+	vertical-align:top;
+}
+.sl_table th
+{
+	border:1px solid #888888;/* 3/20 */
+	font-size:16px;
+	line-height:28px;
+}
+.sl_table th
+{
+	background-color:#80C640;/* 3/20 */
+	color:#FFFFFF;
+	height:28px;
+}
+.sl_table tr td
+{
+	height:28px;
+}
+.sl_table tr:nth-child(odd) td
+{
+	background-color:#FFFFFF;
+	color:#555555;
+}
+.sl_table tr:nth-child(even) td
+{
+	background-color:#EFEFEF;
+	color:#555555;
+}
+.odd td 
+{
+	background-color:#C8C8E8;
+	color:#555555;
+}
+.even td 
+{
+	background-color:#E8E8FF;
+	color:#555555;
+}
+#sl_head_fixed
+{
+	width:60px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index: 9;
+}
+#sl_head_fixed th
+{
+	text-align:center;
+}
+
+.sl_data
+{
+	width:1px;
+}
+.sl_data td, th
+{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+#sl_vertical th
+{
+	width:60px;
+	text-align:center;
+}
+
+#header_h 
+{
+	position: absolute;
+	left:60px;
+	top:0px;
+	width:884px;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	z-index: 9;
+}
+#header_v 
+{
+	position: absolute;
+	left:0px;
+	top:28px;
+	width:60px;
+	height:376px; 
+	overflow-x:hidden;
+	overflow-y:hidden;
+	z-index: 9;
+}
+#data 
+{
+	position: absolute;
+	left:60px;
+	top:28px;
+	overflow-x:scroll;
+	overflow-y:scroll;
+	width:900px;
+	height:393px;
+	z-index: 9;
+}
+
+/**********************************************************************
+ + 右クリックメニュー
+ **********************************************************************/
+#contextmenu
+{
+    display:none;
+    position:absolute;
+    margin: 0;
+    padding: 2px;
+    border: 1px solid gray;
+    background: #EEE;
+    z-index: 10;
+}
+#contextmenu li 
+{
+    padding: 5px 20px 5px 10px;
+    cursor: default;
+}
+#contextmenu li:hover 
+{
+    background: #06c;
+    color: white;
+}

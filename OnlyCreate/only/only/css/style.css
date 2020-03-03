@@ -1,0 +1,475 @@
+@font-face {font-family: KozGoPr6N;src: url(../font/KozGoPr6N.otf);src: url(../font/KozGoPr6N-Bold.otf);
+src: url(../font/KozGoPro-Bold.otf);}
+@font-face {font-family: KozGoPr6N-Regular;src: url(../font/KozGoPr6N-Regular.otf);}
+@font-face {font-family: KozGoPr6N-Medium;src: url(../font/KozGoPr6N-Medium.otf);}
+@font-face {font-family: KozGoPro;src: url(../font/KozGoPro-Medium.otf);}
+@font-face {font-family: DINAlternate;src: url(../font/DIN-Alternate-Bold.ttf);}
+@font-face {font-family: KozGoPro-Bold;src: url(../font/KozGoPro-Bold.otf);}
+
+*{margin: 0px;padding: 0px;}
+html {scroll-behavior: smooth;}
+a{text-decoration: none;color:#000;cursor:pointer;}
+a:hover{color:#ffc74d;}
+body{width:100%;font-family: KozGoPr6N;}
+p{font-size: 12px;}
+.clear{clear:both;}
+button{cursor: pointer;}
+
+/*--header navigation--*/
+header{width: 100%;margin: auto;text-align:center;padding-bottom: 25px;}
+header nav{padding-top: 40px;}
+header nav ul li{display:inline;padding:1% 3%;}
+header nav ul li a{font-size:0.9em;}
+header nav ul .navemail{background: #000;}
+header nav ul .navemail a{color:#fff;}
+header nav ul .navemail i{color: #fff;font-size:21px;padding-right:8px;}
+
+/*--inside header navigation--*/
+.insideheader{width: 100%;padding-bottom: 0px;}
+.insideheader .insidehead{padding-top: 25px;width: 100%;margin: auto;}
+.headlogo{float: left;background:linear-gradient(to top left, transparent 0%, transparent 50%, #000 50%, #000 100%);width:18%;height:210px;}
+.headlogo img{margin-left: 10%;float: left;margin: 22px 0px 0px 15px;}
+.insideheader{background: url(../img/insideheadbg.png) repeat;}
+.insideheader nav ul{float:left;width: 100%;}
+.insideheader nav ul li{padding-right:2%;float: left;width:7%;}
+.insideheader nav ul li:first-child{padding-left: 0px;}
+.insideheader nav ul li a:hover{color:#fff}
+.insideheader nav ul .navemail{width: 14%;float: right;}
+.headtitlebg{background: url(../img/page/headtitlebg.png) no-repeat bottom;height:224px;overflow:hidden;}
+.subtitle{background: #000;color:#fff;clear: both;text-align: center;font-size:18px;}
+.resultheadtitlebg{background: url(../img/page/resultheadbg.png) no-repeat bottom;height:224px;}
+.outheadtitlebg{background: url(../img/page/outheadbg.png) no-repeat bottom;height:224px;}
+.companyheadtitlebg{background: url(../img/page/companyheadbg.png) no-repeat bottom;height:224px;}
+.clinicheadtitlebg{height:224px;float:left;width:80%}
+.clinicbg{background: url(../img/page/clinicheadbg.png) no-repeat bottom;}
+.otherheadtitlebg{background: url(../img/page/otherheadbg.png) no-repeat bottom;height:224px;}
+
+/*--homepage slider--*/
+#slider {width: 95%;height: 556px;position: relative;margin: auto;}
+.slide1,.slide2,.slide3,.slide4,.slide5 {position: absolute;width: 100%;height: 100%;}
+.slide1 {background: url(../img/slider/sliderimg1.png)no-repeat center;background-size: cover;animation:fade 8s infinite;
+-webkit-animation:fade 8s infinite;} 
+.slide2 {background: url(../img/slider/sliderimg2.png)no-repeat center;background-size: cover;animation:fade2 8s infinite;
+-webkit-animation:fade2 8s infinite;}
+.slide3 {background: url(../img/slider/sliderimg1.png)no-repeat center;background-size: cover;animation:fade3 8s infinite;
+-webkit-animation:fade3 8s infinite;}
+
+@keyframes fade
+{  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
+
+/*--homepagebox--*/
+.boxwrap{width: 1100px;margin:auto;}
+.boxwrap .boxheading h2 span{color:#ffb718;}
+.box1{float: left;width: 40%;background: url(../img/box1bg.png) repeat-x;margin:5% 0 5% 0 ;padding: 40px 50px;}
+.box1 .boxheading{background: url(../img/box1head.png) no-repeat right;padding:0 0 6% 25%;font-size:26px;}
+.box1 .boxheading h2{line-height: 52px;}
+.box1 p{padding:1% 0 0 12%}
+.box2{float: right;width: 40%;margin-top: 5% ;padding: 30px 50px;height:392px;color:#fff;background: url(../img/box2bg.png) repeat;}
+.box2 .boxheading{border-bottom:12px solid #ffc74d ;}
+.box2 .boxheading h2{line-height: 36px;font-size: 20px;padding-bottom: 10px;}
+.box2 p{padding:4% 0 0 0}
+.box3{float: left;width: 40%;background: url(../img/box2bg.png) repeat;padding: 40px 50px 20px 50px;color:#fff;}
+.box3 .boxheading{border-bottom:12px solid #ffc74d ;padding:0 0 3% 12%;font-size:12px;background: url(../img/box3headbg.png) no-repeat right;}
+.box3 .boxheading h2{line-height: 45px;}
+.box3 .boxheading h2 span{font-size:20px;}
+.box3 p{padding:3% 0 0 12%}
+.box4{float: right;width: 40%;background: url(../img/box4bg.png) repeat-x;padding: 40px 50px;}
+.box4 .boxheading{background: url(../img/box4headbg.png) no-repeat left;padding:0 0 6% 25%;font-size:20px;height:200px;}
+.box4 .boxheading h2{line-height: 52px;border-bottom:12px solid #000 ;margin-left: 36%;width: 220px;}
+.box4 p{padding:10px 0px 15px 10px;}
+.box4 .boxheading p{margin-left: 35%;}
+.box4 h3{background: #000;color:#fff;font-size: 15px; padding: 0px 10px;margin-top: 10%;}
+/*--footer--*/
+.topscroll{clear: both;text-align:center;height:78px;padding-top:5%;}
+.topscroll a{color:#fff;text-transform: uppercase;font-size: 14px;}
+.topscroll a:hover{color: #ffb718;}
+footer{width: 100%;background: #000;color:#fff;padding-top: 50px;}
+.footerwrapper{width: 78%;margin: auto;padding-left: 2%;padding-bottom: 2%;}
+.footlogo{float: left;margin-left: -3.1%;}
+.footaddress{float: left;padding:10px 0px 0px 25px;}
+.footaddress p{font-size: 15px;}
+.privacy {float: right;text-align: right;background: #ffaf00;padding:0.3% 2.5% 0.3% 17%}
+.privacy a{color:#fff;font-size: 22px;letter-spacing: 8px;}
+.copyright{clear:both;padding:25px 0px;color:#ffaf00;text-align: center;}
+.footcontactwrap{background: url(../img/footcontbg.png) repeat;width: 100%;}
+.footcontact{width: 79%;margin: auto;height: 140px;padding:0px 15px;border: 12px solid #000;border-top:none ;border-bottom:none ;}
+.footcontact .block1{float: left;padding:22px 0px ;}
+.footcontact .block1 i{font-size: 35px;padding:22px 25px;background: #000;}
+.footcontact .block2{float: left;width: 41%;border-right: 12px solid #000;padding: 5px 2% 32px;margin-right: 15px;}
+.footcontact .block2 p{font-size: 25px;color:#000;line-height: 55px;}
+.footcontact .block2 p span{font-size:45px;display: block;    margin-top: -7px;}
+.footcontact .block4{float: left;padding-top:10px;}
+.footcontact .block4 p{font-size:25px;color:#000;padding-left: 25px;}
+
+/*----clinic branding page----*/
+.clinictitle{clear: both;background:#ffaf00 ;width: 100%;text-align: center;margin-top: 30px;padding:10px 0px;}
+.clinictitle h2{font-size:30px;font-weight:normal;text-align: left;width: 1100px;margin: auto;}
+.clinicbox{float: left;padding: 10px;}
+.clinicpara{width:1100px;padding: 20px 0px 0px 20px;margin: auto;}
+.clinicpara p{font-size:22px;padding:5%;}
+
+/*----inside print page----*/
+.onlybg{background: url(../img/insideheadbg.png) repeat;height:50px;}
+.printparatitle {background:#ffaf00 ;width: 100%;text-align: center;margin-top: 30px;padding:10px 0px}
+.printparatitle h2{font-size:30px;font-weight:normal;}
+.printpara{width: 640px;padding: 20px 0px 0px 20px;margin: auto;}
+.printpara p{font-size:22px;}
+
+/*----resultpage---*/
+.containerwrap{width: 100%;}
+.content{width: 1000px;margin:auto;padding-top: 2%;}
+.content p{text-align: center;font-size: 22px;padding-bottom: 2%;}
+.content button{background: none;background: #ffaf00;padding: 5px 10px;text-transform: uppercase;
+font-size: 22px;border: none;width:100%;text-align:left;padding-left:30px;margin-bottom: 25px;}
+.content .resultbox1{float:left;width: 281px;}
+.content .resultbox2{float:left;width: 281px;padding: 0 7%;}
+button:hover{color:#fff;}
+
+/*--outdoor page--*/
+.outcontent{width: 960px;float: right;border-bottom: 10px solid #ffaf00;padding:2%;}
+.outcontent h2{color:#ffaf00;float: left;}
+.outcontent span{font-size: 60px;color:#ffaf00;position: absolute;right: 17%;}
+.outcontent p{clear: both;font-size:14px;}
+.outcontent .outbox{width: 600px;}
+
+/*--company page--*/
+.companywrap{width: 100%; background:url('../img/companybg.png') repeat;}
+.companywrap .content{text-align:center;}
+.companywrap h2{text-transform:uppercase;color:#fff;margin:auto;width: 94px;border-bottom: 4px solid #ffaf00;}
+.companywrap span{color:#fff;}
+.companywrap table{color:#fff;font-size:12px;margin: auto;    padding-top: 50px;padding-bottom:40px;}
+.companywrap table tr{}
+.companywrap table tr td{border-right:4px solid #ffaf00;border-bottom:1px dotted #fff;padding:12px 20px;}
+.companywrap table tr td:last-child{border-right: none;}
+.companyabout{background: #fff;width: 100%; text-align:center;padding-top: 50px;}
+.companyabout h2{width: 115px;}
+.companyabout h2, .companyabout span{color:#000;}
+.companyabout table tr td{color:#000;border-bottom:1px dotted #000;}
+
+/*--other page--*/
+
+
+/*--Type of Signboard page--*/
+.signbannar {
+    text-align: center;
+    margin: 29px 0;
+}
+
+.outheadtitlebg.signboardbg {
+    background: url(../img/typesignboard.jpg) no-repeat bottom;
+	height: 258px;
+}
+
+.sign_wrapper {
+    width: 67%;
+    margin: auto;
+}
+
+.single_sign.color_sign {
+    background: url(../img/signbg.jpg);
+    padding: 12px 0 10px;
+}
+
+.sign_left.signbox {
+    width: 18%;
+}
+
+.sign_right.signbox {
+    width: 76%;
+    float: right;
+}
+
+.single_sign {
+    padding: 10px 0;
+}
+
+.sign_wrapper .signbox {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sign_left.signbox h1 {
+    background: #6A5502;
+    color: #fff;
+    text-align: center;
+    font-size: 125px;
+}
+
+.sign_right.signbox h3 {
+    font-size: 35px;
+}
+
+.sign_right.signbox p {
+    font-size: 13px;
+    line-height: 29px;
+    font-weight: 100;
+}
+
+.single_sign h3 {
+    color: #FFBE30;
+}
+
+.single_sign.color_sign h3 {
+    color: #000;
+}
+
+
+
+/*--Field Signboard--*/
+.outheadtitlebg.fieldsignboardbg {
+    background: url(../img/fieldboard.jpg) no-repeat bottom;
+}
+
+.single_content.field_bg {
+    background: url(../img/fieldbg.jpg);
+}
+
+.field_price_header {
+    text-align: center;
+    padding-top: 65px;
+}
+
+.field_price_select_btn a {
+    background: url(../img/insideheadbg.png);
+    display: inline-block;
+    padding: 0px 7%;
+    font-size: 30px;
+    margin: 19px 1%;
+}
+
+.field_price_select_btn a:hover {
+    color: #000;
+}
+
+.field_price_header h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.field_price_header h1::before {
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: 97%;
+    left: 0;
+    bottom: 8px;
+    background: #FFAE00;
+}
+
+.field_price_header p {
+    font-size: 13px;
+    margin-top: -7px;
+    margin-bottom: 29px;
+}
+
+.field_price_text p {
+    font-size: 16px;
+    text-align: center;
+    width: 66%;
+    margin: 20px auto 89px;
+    line-height: 36px;
+}
+
+.field_number img {
+    margin-left: 39%;
+}
+
+.field_content_text h1 {
+    font-size: 35px;
+}
+
+.field_content_text p {
+    font-size: 13px;
+    line-height: 29px;
+    padding-bottom: 150px;
+}
+
+.field_content_text {
+    margin-top: 48px;
+}
+
+.field_btm_top_img {
+    text-align: center;
+    margin: -19px 0 34px;
+}
+
+.field_btm_top_img img {
+    margin: 0 4%;
+}
+
+.field_btm_btm_img {
+    margin-bottom: -50px;
+}
+
+
+/*---Contact Us Page---*/
+.outheadtitlebg.contactus {
+    background: url(../img/contact.jpg) no-repeat bottom;
+	background-position: 29% bottom;
+}
+
+.contact_form_text p {
+    font-size: 16px;
+    margin: 29px 0;
+}
+
+.contact_form_text p span, .form_label label span {
+    color: #FF0000;
+}
+
+table.contact_form tr td {
+    border-top: 2px dotted #808080;
+    padding: 28px 0;
+}
+
+table.contact_form {
+    width: 100%;
+}
+
+table.contact_form tr td.form_label {
+    width: 26%;
+}
+
+table.contact_form {}
+
+.input_gender .input_gender_box {
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.input_gender_box label {
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.form_label label {
+    border-right: 3px solid #FFAF00;
+    padding-right: 22px;
+    width: 77% !important;
+    display: block;
+}
+
+.input_gender_box {
+    cursor: pointer;
+}
+
+.input_gender_box input[type="radio"] {
+    cursor: pointer;
+}
+
+.form_field input {
+    border: 1px solid #CCCCCC;
+    width: 71%;
+    font-size: 15px;
+    padding: 7px 11px;
+}
+
+.form_field input:focus {
+    outline: none;
+}
+
+.form_field input.half_field {
+    width: 37%;
+}
+
+.option_box {
+    border-left: 3px solid #FFAF00;
+    margin-left: -5%;
+    padding-left: 4%;
+}
+
+.option_box 
+ .single_option {
+    border-bottom: 1px dashed #404040;
+    padding: 16px 0;
+}
+
+.option_box .single_option:last-child {
+    border-bottom: 0;
+}
+
+.single_option p {
+    color: #969696;
+    font-size: 16px;
+}
+
+.single_option p input {
+    margin-left: 6px;
+    width: 25%;
+}
+
+.single_option select {
+    width: 35.5%;
+    padding: 9px 0;
+    color: #000;
+}
+
+.single_option select option {
+    color: #000 !important;
+}
+
+input.full_width {
+    width: 96.5%;
+}
+
+.form_label label.label_top {
+    margin-top: -84px;
+}
+
+.form_field textarea {
+    width: 100%;
+    height: 163px;
+    border: 1px solid #CCCCCC;
+    resize: none;
+}
+
+.submit_btn input {
+    background: #000000;
+    border: none;
+    color: #FFFC00;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 1% 9%;
+    margin: 39px 1% 71px;
+}
+
+.submit_btn {
+    margin-left: 29%;
+    display: inline;
+}
+
+table.contact_form tr td.last_border {
+    border-bottom: 2px dotted #808080;
+}
+
+.textarea_border {
+    border-left: 3px solid #FFAF00;
+    margin-left: -5%;
+    padding-left: 4.1%;
+}
+
+label.label_top.no_border {
+    border-right: 0;
+}
+

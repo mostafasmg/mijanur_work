@@ -1,0 +1,653 @@
+
+@media (max-width: 1024px)	{
+	.companywrap .row div, .companyabout .row div {
+    font-size: 9px;
+}
+	
+	.sign_right.signbox h3{
+		font-size: 17px;
+		padding-left: 46px;
+		min-height: 34px;
+		position:relative;
+	}
+	.sign_left.signbox h1, .sign_right.signbox h3 span{
+	    font-size: 18px;
+    padding: 6px 16px 6px 12px;
+	    left: 0px;
+		bottom:0px;
+    position: absolute;
+	}
+	.sign_left.signbox h1, .sign_right.signbox h3 .span2{
+		font-size: 18px;
+	}
+	.headlogo img {
+		padding: 10% 8% 0% 6%;
+		width: 70%;
+	}
+}
+@media (max-width: 408px)	{
+	.printparatitle h2 {
+		font-size: 20px;
+	}
+	.companywrap .row div, .companyabout .row div {
+		font-size: 9px!important;
+	}
+	p.sign1{
+		width: 40%;
+		font-size: 14px!important;
+	}
+	p.sign2{
+		width: 34%;
+		font-size: 14px!important;
+	}
+	p.sign3{
+		width: 40%;
+		font-size: 14px!important;
+	}
+	p.sign_4{
+		width: 34%;
+		font-size: 14px!important;
+	}
+	.privacy {
+		padding-right: 0%; 
+	}
+}
+@media (max-width: 768px)	{
+
+	/* .slide1, .slide2, .slide3, .slide4, .slide5 { */
+		/* height: auto!important; */
+	/* } */
+	.privacy a{
+		margin-top:0px;
+		font-size:18px;
+	}
+	.footlogo {
+		float: none;
+		text-align: center;
+	}
+	.footaddress {
+		float: none;
+	}
+	.privacy, .footaddress {
+		text-align: center;
+	}
+	
+	.privacy, .footaddress {
+		text-align: center;
+	}
+	.footerwrapper{
+		width:100%!important;
+	}
+	.footcontactwrap .col-md-4, .footcontactwrap .col-md-2 {
+		border-right: none;
+		margin-left: 0px!important;
+		margin-right: 0px!important;
+	}
+	.sign_wrapper {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+@media (max-width: 767px)	{
+	.box2 .boxheading h2 {
+		font-size: 12px;
+	}
+	.tranceform p {
+		font-size: 10px;
+	}
+	table.contact_form tr td.form_label {
+		width: 40%;
+	}
+	.form_label label{
+		font-size:10px;
+	}
+	.history {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.footaddress {
+		padding: 10px 0px 0px 10px;
+	}
+	.companyheadbg {
+		height: 243px
+	}
+	.navbar-brand {
+		margin-left: 5px;
+	}
+	.printheadbg {
+		background-size: 100% 69%;
+	}
+	.pageheader h1 {
+		font-size: 27px;
+	}
+	.fieldheadbg{
+		height: 218px;
+	}
+	.clinicborder2_vac {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 8%;
+}
+.clinicborder2 {
+    border-right: 6px solid #aac863;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 8%;
+}
+	.pageheader .navbar .navbar-nav .nav-link:hover {
+		color: #fff;
+		background:#000;
+	}
+	.privacy {
+		background: #ffaf00;
+	}
+	html{
+		overflow-x: hidden;
+	}
+	body {
+		overflow-x: hidden;
+	}
+	.slider img{
+		width: 100%;
+	}
+	.slider_secssion{
+	transform:unset;
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+	.slider{
+		width: 100%;
+	}
+	.side_container{
+		 padding-right: 0px !important; 
+		padding-left: 0px !important;
+	}
+	.padding_ziro{
+		padding:0px;
+	}
+	.box2 {
+		margin: 3% 0% 2% 0%!important;
+	}
+	.box1 {
+		margin: 3% 0% 2% 0%!important;
+	}
+	.box4 {
+		margin: 5% 0% 2% 0%!important;
+	}	
+	.box3 {
+		margin: 5% 0% 2% 0%!important;
+	}	
+	.box1 .boxheading h2{
+		line-height: 28px;
+		font-size: 20px;
+		margin-left: 3%;
+		padding-top: 0px; 
+		font-weight: 700;
+		width: 90%;
+	}
+	.box1, .box2, .box4, .box3 {
+		margin: 1% 0 2% 0 !important;
+		height: max-content !important;
+		padding-bottom: 2% !important;
+		padding-top: 3% !important;
+	}
+	.box4 .boxheading h2{
+		height:auto;
+	}
+	.box3 .boxheading {
+		height: auto;
+	}
+	.box3 .boxheading h2 {
+		font-size: 18px;
+		width: 75%;
+	}
+	.footaddress p {
+		font-size: 12px;
+	}
+	.footcontactwrap .block1 {
+		margin-left: 23px;
+	}
+	.footcontactwrap .block2 p {
+		font-size: 14px;
+	}
+	.footcontactwrap .block2 p span {
+		font-size: 26px;
+	}
+	.block2 {
+		text-align: left!important;
+	}
+	.footcontactwrap .col-md-4, .footcontactwrap .col-md-2 {
+		margin-left: 0px!important;
+		margin-right: 0px!important;
+	}
+	.copyright {
+		font-size: 20px;
+		background: #000;
+		margin-bottom: 0px;
+		padding:0px!important;
+		padding-bottom: 15px!important;
+	}
+	header nav ul .navemail {
+		margin-right: 15px;
+		margin-top: 30px;
+	}
+	.navbar-nav {
+		padding-bottom: 12px;
+	}
+	.width_formobile{
+		width:50%;
+	}
+	.clinictitle2 h2 {
+		font-size: 20px;
+		width:100%;
+	}
+	.clinictitle3 h2 {
+		font-size: 18px;
+		width:100%;
+	}
+	.clinictitle h2 {
+		font-size: 20px;
+		width:100%;
+	}
+	.width_mobile{
+		width:20%;
+	}
+	.width_mobile3{
+		width:80%;
+	}
+	.history .rowbotborder {
+		font-size: 11px;
+	}
+	.form_field input{
+		width:unset;
+	}
+	.input_gender .input_gender_box {
+		width: 28%;
+	}
+	p.sign1{
+		width: 40%;
+		font-size: 20px;
+	}
+	p.sign2{
+		width: 34%;
+		font-size: 20px;
+	}
+	p.sign3{
+		width: 40%;
+		font-size: 20px;
+	}
+	p.sign_4{
+		width: 34%;
+		font-size: 20px;
+	}
+	.field_price_header{
+		padding-top:0px;
+	}
+	.field_content_text p {
+		margin-left: 0px;
+	}
+	.field_content_text h1 {
+		margin-left: 0px;
+	}
+	.field_price_text p {
+		margin: 0px;
+	}
+	.single_content {
+		padding-top: 0px!important;
+		padding-bottom: 0px!important;
+		padding-left: 15px!important;
+		padding-right: 15px!important;
+	}
+	.fi_image {
+		padding-top: 0px!important;
+		padding-bottom: 0px!important;
+		padding-left: 50px!important;
+		padding-right: 50px!important;
+		margin-top: 0px;
+	}
+	.field_content_text h1::before {
+		width: 100%;
+	}
+	.outbox {
+		width: 100%;
+		margin: auto;
+		padding-right: 15px;
+	}
+	.downicon {
+		font-size: 35px;
+	}
+	.dotArea {
+		width: 100%;
+		padding-left: 15px!important;
+		padding-right: 15px!important;
+	background-image: none;
+	}
+	.printpara {
+		padding: 0% 4% 0% 4%;
+	}
+	.printparatitle_span_text{
+		width:100%;
+	}
+	.privacycontent h2 {
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.privacycontent p span {
+		font-weight: bold;
+		font-size: 16px;
+	}
+	.privacycontent p {
+		font-size: 14px;
+	}
+	.padding_right{
+		padding-right:30px!important;
+	}
+	.padding_left{
+		padding-left:30px!important;
+	}
+	.sign_left.signbox {
+		width: 0%;
+		display:none;
+	}
+	.sign_right.signbox {
+		width: 100%;
+		margin-left: 0px;
+	}
+	.single_sign {
+		height: auto;
+		margin: 0px;
+	}
+	
+}
+@media (min-width:768px) and (max-width:880px){
+	.slider {
+		margin-top: 25px;
+	}
+}
+@media (min-width:568px) and (max-width:767px){
+	.slider {
+		height: 360px;
+	}
+}
+@media (min-width:451px) and (max-width:567px){
+	.slider {
+		position: relative;
+		margin: auto;
+		width: 100% !important;
+		height: 300px !important;
+	}
+}
+@media (min-width:450px) and (max-width:767px){
+	/* .slide1, .slide2, .slide3, .slide4, .slide5 { */
+		/* height: auto; */
+	/* } */
+	p.paracontent_aria font {
+		font-size: 12px;
+	}
+	p.paracontent_aria {
+    font-size: 12px;
+    line-height: 1.8;
+}
+	.paracontent_list_style {
+		font-size: 10px;
+	}
+}
+@media (min-width:250px) and (max-width:449px){
+	
+	p.paracontent_aria {
+    font-size: 8px;
+    line-height: 1.8;
+}
+	p.paracontent_aria font {
+		font-size: 8px;
+	}
+	.paracontent_list_style {
+		padding: 3px 6px 4px 6px;
+		margin-right: 3px;
+		font-size: 8px;
+	}
+}
+@media (min-width:768px) and (max-width:880px){
+	.outheadbg{
+		margin-left: 100px;
+	}
+	.privacy a{
+		font-size:18px;
+	}
+	.footcontactwrap .block1 i {
+		font-size: 60px;
+	}
+	.boxheading_1 p {
+		font-size: 11px!important;
+		line-height: 19px;
+	}	
+	.box1 .boxheading h2 {
+		font-size: 18px;
+	}
+	.box4 .boxheading h2 {
+		height: auto; 
+		font-size: 23px;	
+	}
+	p.boxheading_4 {
+		font-size: 15px!important;
+		line-height: 25px;
+	}
+	box4 .boxheading p {
+		padding-left: 40%;
+		background: url(../img/map.png) no-repeat 3px -3px/96px;
+		height: auto;
+		font-size: 13px;
+	}
+	.box4 h3 {
+		margin-top: 0px;
+	}
+}
+@media (min-width:880px) and (max-width: 992px){
+	.boxheading_1 p {
+		font-size: 18px!important;
+		line-height: 24px;
+}
+}
+@media (min-width:768px) and (max-width: 992px){
+	
+	#collapsibleNavbar{
+		margin-left: 55px;
+	}
+		p.sign1{
+		font-size: 20px;
+	}
+	p.sign2{
+		font-size: 20px;
+	}
+	p.sign3{
+		font-size: 20px;
+	}
+	p.sign_4{
+		font-size: 20px;
+	}
+}
+@media (min-width:768px) and (max-width: 1024px){
+	.topscroll_home {
+		margin-top: 8%;
+	}
+	.box3 .boxheading h2 {
+		font-size: 15px;
+	}
+}
+@media (min-width:768px) and (max-width: 992px){
+	.fieldheadbg {
+		height: 247px;
+		}
+	li.nav-item {
+		padding: 9px 5px;
+	}
+	.navbar-expand-md .navbar-nav .nav-link{
+		padding-right:0px!important;
+		padding-left:0px!important;
+		}
+}
+@media (min-width:992px) and (max-width: 1024px){
+	li.nav-item {
+		padding: 9px 10px;
+	}
+}
+@media (min-width:1024px) and (max-width: 1199px){
+	li.nav-item {
+		padding: 9px 15px;
+	}
+}
+@media (min-width:768px) and (max-width: 1199px){
+	.footcontactwrap .block1 i {
+		font-size: 60px;
+	}
+}
+@media (min-width:768px) and (max-width: 1600px){
+	.slider {
+		margin-top: 20px;
+	}
+}
+@media (min-width:768px) and (max-width: 1160px){
+	
+	#collapsibleNavbar{
+		margin-left: 54px;
+	}
+	.field_content_text h1 {
+		margin-top: 32px;
+	}
+	.coll_s{
+		margin-left: 0px!important;
+	}
+	.box2 .boxheading h2 {
+		font-size: 17px;
+	}
+	.footcontactwrap .block2 p span {
+		font-size: 19px;
+	}
+	.footcontactwrap .block2 p {
+		font-size: 10px;
+	}
+	.footaddress p {
+		font-size: 13px;
+	}
+	.privacy {
+		padding-right: 0%; 
+	}
+}
+@media (min-width:992px){
+
+	.navbar-expand-lg .navbar-nav .nav-link{
+		padding-right:0px!important;
+		padding-left:0px!important;
+	}	
+}
+@media (min-width:1200px) and (max-width: 1400px){
+	li.nav-item {
+		padding: 9px 21px;
+	}
+	#collapsibleNavbar {
+		margin-left: 10%;
+	}
+	.footcontactwrap .block2 p {
+		font-size: 17px;
+	}
+	.footaddress p {
+		font-size: 17px;
+	}
+	.outheadbg{
+		margin-left: 167px;
+	}
+	.clinicheadbg{
+		margin-left: 167px;
+	}
+	.resultheadbg{
+		margin-left: 167px;
+	}
+	.fieldheadbg{
+		margin-left: 167px;
+	}
+	.companyheadbg{
+		margin-left: 167px;
+	}
+	.otherheadbg{
+		margin-left: 167px;
+	}
+	
+}
+@media (min-width:992px) and (max-width: 1199px){
+	.footaddress p {
+		font-size: 19px; 
+	}
+	.footcontactwrap .block2 p {
+		font-size: 20px;
+	}
+	.footaddress p {
+		font-size: 20px;
+	}
+	div#collapsibleNavbar {
+		margin-left: 10%;
+	}
+}
+@media (max-width: 992px)	{
+	body{
+		overflow-x: hidden;
+	}
+	.sign_right.signbox {
+		width: 81%;
+		margin-left: 0px;
+	}
+}
+@media (max-width: 375px)	{
+	.span_wq{
+		bottom: 20px!important;
+	}
+}
+@media (max-width: 450px)	{
+	.slider {
+		height: 236px !important;
+	}
+	.box4 .boxheading p{background: url(../img/map.png) no-repeat 3px 33px/112px;}
+	.box3 .boxheading h2 {
+    font-size: 13px;
+	   
+	}
+	.box1 .boxheading h2{
+		 padding-top: 18px;
+	}
+	.box2 .boxheading h2 span{
+		 padding-top: 8px;
+		 font-size: 20px;
+	}
+	.outcontent h2{
+		font-size: 22px;
+	}
+	.sign_right.signbox h3{
+		font-size: 17px;
+		padding-left: 46px;
+		min-height: 34px;
+		position:relative;
+	}
+	.sign_left.signbox h1, .sign_right.signbox h3 span{
+	    font-size: 18px;
+    padding: 6px 16px 6px 12px;
+	    left: 0px;
+		bottom:0px;
+    position: absolute;
+	}
+	.sign_left.signbox h1, .sign_right.signbox h3 .span2{
+		font-size: 18px;
+	}
+	
+	.field_content_text h1{
+		font-size: 20px;
+	}
+	.submit_btn{
+		margin-left: 16%;
+	}
+	/* .slide1, .slide2, .slide3, .slide4, .slide5 { */
+		/* height: auto; */
+	/* } */
+}

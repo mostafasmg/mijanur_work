@@ -1,0 +1,33 @@
+@charset "Shift-jis";
+
+/* ================================ */
+/*       ˆÈ‰º€–Ú‚Ì‰¡•’è‹`—p       */
+/* ================================ */
+.tbl_list .none
+{
+    display:none;
+}
+.tbl_list .customer_name
+{
+    min-width:100px;
+}
+.tbl_list .address
+{
+    min-width:100px;
+}
+.tbl_list .tel
+{
+    min-width:100px;
+}
+.tbl_list .mail
+{
+    min-width:100px;
+}
+.tbl_list .addinfo
+{
+    min-width:100px;
+}
+.tbl_list .date
+{
+    min-width:120px;
+}

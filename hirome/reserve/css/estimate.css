@@ -1,0 +1,236 @@
+@charset "Shift-jis";
+
+/**********************************************************************
+ +
+ + カスタマー毎のスタイルを定義します。
+ +
+ **********************************************************************/
+/* 全般 */
+#estimate
+{
+    width:840px;
+    font-size:115%;
+}
+#est-sub
+{
+    width:200px;
+    font-size:115%;
+}
+
+.TblParent
+{
+    display:table;
+}
+.TblChild
+{
+    display:table-cell;
+}
+
+.solidp
+{
+    border-top-style: solid;
+    border-left-style: solid;
+    border-width: 1px;
+    border-color:#000000;
+    
+}
+.solidp-end
+{
+    border-right-style: solid;
+    border-width: 1px;
+    
+}
+
+.solidp-left
+{
+    border-left-style: solid;
+    border-width: 1px;
+}
+
+.solidp-bottom
+{
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+.dottedp
+{
+    border-top-style: dotted;
+    border-left-style: solid;
+    border-width: 1px;
+    border-color:#000000;
+    
+}
+
+.doublep-bottom
+{
+    border-bottom-style: double;
+    border-width: 3px;
+}
+
+.TotalFeeArea
+{
+    margin-left:610px;
+}
+
+/* ヘッダー */
+
+#est-head .title
+{
+    font-size:210%;
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#est-head .head-margin
+{
+    margin-top:20px;
+}
+
+#est-head .left-title
+{
+    width:80px;
+}
+
+#head-left
+{
+	width:570px;
+	margin-top:10px;
+}
+
+#head-right
+{
+	width:230px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:10px;
+	background-image: url(../image/estimate/kakuin.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+/* 見積明細入力 */
+.BLStatement p
+{
+    box-sizing:border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.modaldisplay .innerbox
+{
+     padding:20px;
+}
+#inputCover
+{
+    width:1040px;
+    margin-top:15px;
+
+}
+#inputCover .TblParent
+{
+    min-height:30px;
+}
+
+#inputCover p
+{
+    padding-top:5px;
+    padding-bottom:3px;
+}
+
+#inputCover .gyo
+{
+    width:40px;
+}
+#inputCover .itemnum
+{
+    width:40px;
+}
+#inputCover .hinmei
+{
+    width:430px;
+}
+#inputCover .hinmei-big
+{
+    width:470px;
+}
+#inputCover .suryo
+{
+    width:80px;
+}
+#inputCover .tanni
+{
+    width:60px;
+}
+#inputCover .tanka
+{
+    width:100px;
+}
+#inputCover .price
+{
+    width:120px;
+}
+#inputCover .est-monh
+{
+    width:70px;
+}
+#inputCover .detail-rem
+{
+    width:120px;
+}
+
+#inputCover .title
+{
+    width:100px;
+}
+#inputCover .total-monh
+{
+    width:71px;
+}
+#inputCover .glay
+{
+    background-color:#EEEEEE;
+}
+#inputCover .orange
+{
+    background-color:#FFE4C4;
+}
+
+/* モーダル */
+.innerbox #leftArea
+{
+    float:left;
+    width:120px;
+    font-size:120%;
+    line-height:29px;
+}
+.innerbox #leftArea p
+{
+    height:20px;
+    margin-bottom:20px;
+}
+.innerbox #rightArea p
+{
+    height:20px;
+    margin-bottom:20px;
+}
+.innerbox #rightArea
+{
+    float:left;
+}
+
+#title-right
+{
+    margin-left:40px;
+}
+/* 印刷範囲指定 */
+@page { size: A4 }
+@media print{
+    #head-line{display:none;}
+    #head{display:none;}
+    #p_head-under{display:none;}
+    #footer{display:none;}
+    .noprint{display:none;width:0px;}
+    #button-area{display:none;}
+    #sub{display:none;}
+
+}

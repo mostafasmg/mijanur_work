@@ -1,0 +1,429 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  color: #2b2b2b;
+}
+
+/* header style start 
+.header {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/home/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;*/
+}
+
+.menu-item {
+  width: 300px;
+  height: 100vh;
+  background: #F8F08A;
+  padding: 50px 40px;
+}
+.menu-item img {
+  width: 100%;
+}
+.menu-item ul {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 40px;
+}
+.menu-item ul li {
+  margin: 30px 0;
+  position: relative;
+  transition: all 0.3s ease;
+  
+}
+.menu-item ul li::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #E05D2D;
+  transition: all 0.3s ease-in-out;
+}
+.menu-item ul li:hover::after {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.menu-item ul li a {
+  color: #2b2b2b;
+  font-size: 22px;
+  font-weight: 800;
+  text-decoration: none;
+  font-family: 'hgrgy';
+}
+
+/* header style end */
+/* about style start */
+.about {
+  position: relative;
+  background: url(../images/Page_2_img/section-2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem 0 0;
+/* 2019.06.27 S: 隙間は不要とのことなのでコメント化 */
+  /*margin-bottom: 5rem;*/
+/* 2019.06.27 E: 隙間は不要とのことなのでコメント化 */
+  width: 100%;
+  min-height: 600px;
+}
+.about .layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.about img {
+  position: absolute;
+  /* 2019.06.25 S: 位置調整 */
+  /* bottom: -62%; */
+  bottom: 0%;
+  /* 2019.06.25 E: 位置調整 */
+  z-index: 9;
+}
+.about .a-text {
+  z-index: 99;
+  min-height: 600px;;
+}
+.about h2 {
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  margin-top: 8rem;
+}
+.about h5 {
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 35px;
+  font-family: hgrskp;
+}
+h4.text-white_1.mb-3 {
+    color: #ffffff;
+    font-family: hgrskp;
+}
+.about a {
+  background: #E05D2D;
+  padding: 8px 30px;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  transition: all 0.3s;
+  display: inline-block;
+}
+.about a:hover {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-7px);
+  -webkit-transform: translateY(-7px);
+}
+
+@media screen and (max-width: 1024px) {
+  .about {
+    padding: 1rem 0 5rem;
+  }
+  .about img {
+    bottom: -35%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .about {
+    padding: 1rem 0 5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about img {
+    position: static;
+  }
+  .about h2 {
+    margin-top: 0;
+  }
+}
+/* about style end */
+/* gallery style start */
+.gallery {
+  background: url(../images/Page_2_img/section-3.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallery .wrapper {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 2rem 2rem;
+}
+.gallery .wrapper h4 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-family: hgrgy;
+}
+.gallery .wrapper figure {
+  margin-bottom: 30px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+.gallery .wrapper figure figcaption {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  left: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(248, 240, 138, 0.8);
+  padding: 0 20px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+}
+.gallery .wrapper figure figcaption h5 {
+  color: #2b2b2b;
+  font-weight: bold;
+  font-size: 30px;
+}
+.gallery .wrapper figure figcaption p {
+  color: #2b2b2b;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.gallery .wrapper figure figcaption p span {
+  font-size: 20px;
+}
+.gallery .wrapper figure figcaption p strong {
+  position: absolute;
+  right: 5px;
+  bottom: 0;
+}
+.gallery .wrapper figure:hover figcaption {
+  top: 0;
+}
+
+/* gallery style end */
+/* gallery2 style start */
+.gallery2 {
+  padding: 0rem 0;
+}
+.gallery2 h4 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-family: hgrgy;
+}
+.gallery2 figure {
+  margin-bottom: 30px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+.gallery2 figure figcaption {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  left: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(248, 240, 138, 0.8);
+  padding: 0 20px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+}
+.gallery2 figure figcaption h5 {
+  color: #2b2b2b;
+  font-weight: bold;
+  font-size: 30px;
+}
+.gallery2 figure figcaption p {
+  color: #2b2b2b;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.gallery2 figure figcaption p span {
+  font-size: 20px;
+}
+.gallery2 figure figcaption p strong {
+  position: absolute;
+  right: 5px;
+  bottom: 0;
+}
+.gallery2 figure:hover figcaption {
+  top: 0;
+}
+
+/* gallery2 style end */
+
+/* gallery3 style start */
+.gallery3 {
+  background: url(../images/Page_2_img/section-3_.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallery3 .wrapper {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 2rem 2rem;
+}
+.gallery3 .wrapper h4 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-family: hgrgy;
+}
+.gallery3 .wrapper figure {
+  margin-bottom: 30px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+.gallery3 .wrapper figure figcaption {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  left: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(248, 240, 138, 0.8);
+  padding: 0 20px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+}
+.gallery3 .wrapper figure figcaption h5 {
+  color: #2b2b2b;
+  font-weight: bold;
+  font-size: 30px;
+}
+.gallery3 .wrapper figure figcaption p {
+  color: #2b2b2b;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.gallery3 .wrapper figure figcaption p span {
+  font-size: 20px;
+}
+.gallery3 .wrapper figure figcaption p strong {
+  position: absolute;
+  right: 5px;
+  bottom: 0;
+}
+.gallery3 .wrapper figure:hover figcaption {
+  top: 0;
+}
+
+/* gallery3 style end */
+
+/* reservation style start */
+.reservation {
+  background: url(../images/second/14.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem 0;
+}
+.reservation .content {
+  background: rgba(248, 240, 138, 0.8);
+  padding: 3rem 1rem;
+  height: 100%;
+}
+.reservation .content h3 {
+  text-align: center;
+  font-weight: bold;
+}
+.reservation .content p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.reservation .content .input_field {
+  position: relative;
+  margin-bottom: 30px;
+}
+.reservation .content .input_field input {
+  width: 100%;
+  border: 0;
+  height: 35px;
+  outline: 0;
+  border-radius: 4px;
+  padding: 5px 30px;
+  background: #F8F08A;
+  font-weight: bold;
+}
+.reservation .content .input_field span {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-right: 1px solid #2b2b2b;
+  padding-right: 5px;
+}
+.reservation .content button {
+  background: #F8F08A;
+  border: 0;
+  padding: 8px 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s;
+  border-radius: 4px;
+}
+.reservation .content button:hover {
+  background: #f5ea5a;
+}
+
+/* reservation style end */
+/* schedule style start */
+.schedule {
+  padding: 5rem 0 4rem;
+/*  background: url(../images/Page_2_img/section-5.jpg); */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.schedule h4 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.schedule .item {
+  text-align: center;
+  border: 2px solid #2A3C6D;
+  border-radius: 4px;
+  padding: 2rem;
+  margin-bottom: 30px;
+}
+.schedule .item h5 {
+  font-weight: bold;
+  color: #2A3C6D;
+}
+.schedule .item p {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+/* schedule style end */
+
+/*# sourceMappingURL=second_page.css.map */

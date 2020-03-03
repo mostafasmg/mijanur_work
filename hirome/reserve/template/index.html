@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.0/css/ionicons.min.css">
+    <!-- bootstrap -->
+	
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- vegas slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.css">
+<!-- HEADTAG_START -->
+<!-- HEADTAG_END -->
+<!-- icon -->
+    
+    <link rel="stylesheet" href="++[sys_systemroot]../css/master.css">
+	<link rel="stylesheet" href="++[sys_systemroot]../css/faq.css">
+    <link rel="stylesheet" href="++[sys_systemroot]../css/canvas.css">
+    <link rel="stylesheet" href="++[sys_systemroot]../css/custom.css">
+    <!-- script -->
+<script type="text/javascript">
+$(document).ready(function()
+{
+    $("#init_focus").focus();
+    objectFitImages();
+});
+// お客様情報入力へ
+function btnCheck_Click()
+{
+
+    return true;
+}
+</script>
+</head>
+<body>
+
+<!-- メニューバー開始 -->
+<div  class="header" id="header">
+    <nav class="navbar navbar-expand-lg nav_custom">
+            <div class="container mob_con" >
+                <a class="navbar-brand" href="../index.html">
+                    <img src="++[sys_systemroot]../images/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="ion-android-menu"></span> -->
+					<img src="image/mbotton.png" class="button_jd">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link " href="++[sys_systemroot]../index.html">ホーム </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="++[sys_systemroot]../reserve/">御予約はこちら</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="++[sys_systemroot]../second_page.html">仕出し弁当</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="++[sys_systemroot]../third_page.html">御法要の膳</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="++[sys_systemroot]../fourth_page.html">精進料理/点心</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="++[sys_systemroot]../seventh.html">パーティーオードブル</a>
+                        </li>
+    					<li class="nav-item">
+                            <a class="nav-link" href="++[sys_systemroot]../all_products_list.html">全商品一覧</a>
+                        </li>
+    					<li class="nav-item">
+                            <a class="nav-link " href="++[sys_systemroot]../faq.html">よくあるご質問</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="++[sys_systemroot]../fifth.html">配達の御案内</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="++[sys_systemroot]../sixth.html">会社概要</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+</div>
+<div id="all">
+    <div id="contents" >
+
+    	<div id="reseve_message" >
+        	<h2>ご注文</h2>
+        	<p>お料理総額　10,000円（＋税）以上より承ります。</p>
+            <p>2日後～2ヶ月後までの注文が可能です。</p>
+        </div>
+<!-- MESSAGEAREA_START -->
+<!-- MESSAGEAREA_END -->
+        <form method="post"  name="fdata" id="fdata" action="./input.php" onsubmit="btnCheck_Click()" >
+        
+            <div class="menu_list">
+                <h2 class="headline_style t-left w200">仕出弁当</h2>
+                <div class="fix">
+<!-- DISH1_START -->
+                    <div class="dish_block fix f-left">
+                        <div class="image_block f-left">
+                            <p class="">
+                                <img class="object-fit-img" src="++[sys_systemroot]../images/++[lst_path]">
+                            </p>
+                            <p class="">
+                               ++[lst_dishname]
+                            </p>
+                        
+                        </div>
+                        <div class="text_block f-left">
+                            <p class="">
+                                ++[lst_price_disp]円 <input type="text" name="dish_qty[++[lst_id]]" class="w50 t-right" price="++[lst_price]"  maxlength="3" value="++[lst_qty]"  /> 個
+                            </p>
+                            <p class="">
+                                &nbsp;
+                            </p>
+                            <p class="dis_n_mob">料理内容:</p>
+                            <p class="dish_detail dis_n_mob">
+                                ++[lst_detail]
+                            </p>
+                        </div>
+                    </div>
+<!-- DISH1_END -->
+                </div>
+                
+            </div>
+            
+            <div class="menu_list">
+                <h2 class="headline_style t-left w200">お子様料理</h2>
+                <div class="fix">
+<!-- DISH7_START -->
+                    <div class="dish_block fix f-left">
+                        <div class="image_block f-left">
+                            <p class="">
+                                <img class="object-fit-img" src="++[sys_systemroot]../images/++[lst_path]">
+                            </p>
+                            <p class="">
+                               ++[lst_dishname]
+                            </p>
+                        
+                        </div>
+                        <div class="text_block f-left">
+                            <p class="">
+                                ++[lst_price_disp]円 <input type="text" name="dish_qty[++[lst_id]]" class="w50 t-right" price="++[lst_price]"  maxlength="3" value="++[lst_qty]"  /> 個
+                            </p>
+                            <p class="">
+                                &nbsp;
+                            </p>
+                            <p class="dis_n_mob">料理内容:</p>
+                            <p class="dish_detail dis_n_mob">
+                                ++[lst_detail]
+                            </p>
+                        </div>
+                    </div>
+<!-- DISH7_END -->
+                </div>
+                
+            </div>
+            
+            <div class="menu_list">
+                <h2 class="headline_style t-left w200">ご法要の膳</h2>
+                <div class="fix">
+<!-- DISH2_START -->
+                <div class="dish_block fix f-left">
+                        <div class="image_block f-left">
+                            <p class="">
+                                <img class="object-fit-img" src="++[sys_systemroot]../images/++[lst_path]">
+                            </p>
+                            <p class="">
+                               ++[lst_dishname]
+                            </p>
+                        
+                        </div>
+                        <div class="text_block f-left">
+                            <p class="">
+                                ++[lst_price_disp]円 <input type="text" name="dish_qty[++[lst_id]]" class="w50 t-right" price="++[lst_price]"  maxlength="3" value="++[lst_qty]"  /> 個
+                            </p>
+                            <p class="">
+                                &nbsp;
+                            </p>
+                            <p class="dis_n_mob">料理内容:</p>
+                            <p class="dish_detail dis_n_mob">
+                                ++[lst_detail]
+                            </p>
+                        </div>
+                    </div>
+<!-- DISH2_END -->
+                </div>
+            </div>
+            
+            <div class="menu_list">
+                <h2 class="headline_style t-left w200">精進料理</h2>
+                <div class="fix">
+<!-- DISH3_START -->
+                    <div class="dish_block fix f-left">
+                        <div class="image_block f-left">
+                            <p class="">
+                                <img class="object-fit-img" src="++[sys_systemroot]../images/++[lst_path]">
+                            </p>
+                            <p class="">
+                               ++[lst_dishname]
+                            </p>
+                        
+                        </div>
+                        <div class="text_block f-left">
+                            <p class="">
+                                ++[lst_price_disp]円 <input type="text" name="dish_qty[++[lst_id]]" class="w50 t-right" price="++[lst_price]"  maxlength="3" value="++[lst_qty]"  /> 個
+                            </p>
+                            <p class="">
+                                &nbsp;
+                            </p>
+                            <p class="dis_n_mob">料理内容:</p>
+                            <p class="dish_detail dis_n_mob">
+                                ++[lst_detail]
+                            </p>
+                        </div>
+                    </div>
+<!-- DISH3_END -->
+                </div>
+            </div>
+            
+            <div class="menu_list">
+                <h2 class="headline_style t-left w200">点心</h2>
+                <div class="fix">
+<!-- DISH6_START -->
+                    <div class="dish_block fix f-left">
+                       <div class="image_block f-left">
+                           <p class="">
+                               <img class="object-fit-img" src="++[sys_systemroot]../images/++[lst_path]">
+                           </p>
+                           <p class="">
+                              ++[lst_dishname]
+                           </p>
+                       
+                       </div>
+                       <div class="text_block f-left">
+                           <p class="">
+                               ++[lst_price_disp]円 <input type="text" name="dish_qty[++[lst_id]]" class="w50 t-right" price="++[lst_price]"  maxlength="3" value="++[lst_qty]"  /> 個
+                           </p>
+                           <p class="">
+                               &nbsp;
+                           </p>
+                           <p class="dis_n_mob">料理内容:</p>
+                           <p class="dish_detail dis_n_mob">
+                               ++[lst_detail]
+                           </p>
+                       </div>
+                   </div>
+<!-- DISH6_END -->
+                </div>
+            </div>
+            
+            <div class="menu_list">
+                <h2 class="headline_style t-left w300">パーティオードブル</h2>
+                <div class="fix">
+<!-- DISH4_START -->
+                    <div class="dish_block fix f-left">
+                       <div class="image_block f-left">
+                           <p class="">
+                               <img class="object-fit-img" src="++[sys_systemroot]../images/++[lst_path]">
+                           </p>
+                           <p class="">
+                              ++[lst_dishname]
+                           </p>
+                       
+                       </div>
+                       <div class="text_block f-left">
+                           <p class="">
+                               ++[lst_price_disp]円 <input type="text" name="dish_qty[++[lst_id]]" class="w50 t-right" price="++[lst_price]"  maxlength="3" value="++[lst_qty]"  /> 個
+                           </p>
+                           <p class="">
+                               &nbsp;
+                           </p>
+                           <p class="dis_n_mob">料理内容:</p>
+                           <p class="dish_detail dis_n_mob">
+                               ++[lst_detail]
+                           </p>
+                       </div>
+                   </div>
+<!-- DISH4_END -->
+                </div>
+            </div>
+            
+            <div class="menu_list">
+                <h2 class="headline_style t-left w300">サイドメニュー</h2>
+                <div class="fix">
+<!-- DISH5_START -->
+                <div class="side_dish_block fix f-left">
+
+                       <div class="text_block f-left">
+                           <p class="">
+                              ++[lst_dishname]
+                           </p>
+                           <p class="">
+                               ++[lst_price_disp]円 <input type="text" name="dish_qty[++[lst_id]]" class="w50 t-right" price="++[lst_price]"  maxlength="3" value="++[lst_qty]"  /> 個
+                           </p>
+                       </div>
+                   </div>
+<!-- DISH5_END -->
+                </div>
+            </div>
+            <div class="fix SubmitBtnArea">
+                <p><input type="submit" class="reserve_button f-right" value="お客様情報の入力へ" onclick="return btnCheck_Click();" /></p>
+            </div>
+        
+        </form>
+
+    </div>
+    
+<footer id="footer">
+        <div class="container">
+            <p>© Copyright 2010 料理・仕出し ㈱ヒロメ All Rights Reserved.</p>
+        </div>
+</footer>
+
+<div id="stop" class="scrollTop">
+        <span><a href="#header"><img src="++[sys_systemroot]../images/top.png" alt=""></a></span>
+    </div>
+
+    <div class="link_bottom">
+        <span><a href="#footer" id="footer_link"><img src="++[sys_systemroot]../images/top.png" alt=""></a></span>
+    </div>
+</div>
+<!-- script -->
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="../vendors/jquery.nicescroll/jquery.nicescroll.min.js"></script>
+    <!-- vegas slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.js"></script>
+    <!-- custom js -->
+    <script src="../js/custom.js"></script>
+<!--all終了-->
+</body>
+<style>
+.mob_con{
+	position:relative;
+}
+.reserve_button {
+    color: #fff;
+    background: #FF0000;
+    border: 0;
+    padding: 8px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+    border-radius: 4px;
+    height: 50px;
+}
+@media (max-width: 991.98px){
+.navbar-nav {
+    position: fixed;
+    background: #f8f08a;
+    top: 86px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: scroll;
+}
+}
+</style>
+</html>

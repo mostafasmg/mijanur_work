@@ -1,0 +1,26 @@
+@charset "Shift-jis";
+
+/**********************************************************************
+ +
+ + カスタマー毎のスタイルを定義します。 (モバイルファイル)
+ +
+ **********************************************************************/
+/* 添付写真を引き伸ばしさせないで表示させるための定義 */
+.thumnail_list
+{
+    width:70%;
+    object-fit: contain;
+    font-family: "object-fit: contain;";
+}
+.tblStyleInquiry .wquarter
+{
+    width:25%;
+    box-sizing: border-box;
+}
+
+ .info_message p
+{
+    margin-top:20px;
+    font-size: 1.2em;
+    text-align:center;
+}

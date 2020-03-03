@@ -1,0 +1,181 @@
+.price_v3 .tb-1 {
+    width: 35%;
+    background-color: #f4f3f4;
+    vertical-align: middle;
+}
+.bg_service_p{
+    background: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bg_service_q {
+    background: #fff;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+.arraerer_price{
+	margin-top: 30px;
+	text-align:center;
+}
+.arraerer_price_red{
+	color:#ff0000;
+	margin-top: 30px;
+	text-align:left;
+}
+.arraerer_price_border{
+	font-size: 21px;
+    margin: 5% 0 0;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, #2d64c8 22%, #cccccc 0) 1;
+}
+.arraerer_price_border_2 {
+    font-size: 21px;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, #2d64c8 30.5%, #cccccc 0) 1;
+}
+.arraerer_price_border_3 {
+    font-size: 21px;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, #2d64c8 18%, #cccccc 0) 1;
+}
+.arraerer_price_border_4 {
+    font-size: 21px;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, #2d64c8 38%, #cccccc 0) 1;
+}
+.arraerer_price_border_5 {
+    font-size: 21px;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, #2d64c8 14%, #cccccc 0) 1;
+}
+.star_red{
+	color:red;
+}
+.contact_text{
+	padding-left:10%;
+}
+form{
+	width:100%;
+	margin-top:50px;
+	margin-bottom:100px;
+}
+.star_black{
+	color:000;
+}
+.btn_div_1,
+.btn_div_2{
+	text-align:center;
+}
+.cancel_btn{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #2d64c8;
+    font-size: 18px;
+    padding: 10px 35%;
+    border-radius: 0;
+}
+.submit_button{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #2d64c8;
+    font-size: 18px;
+    padding: 10px 17%;
+    border-radius: 0;
+}
+.border_right_b{
+	border-right: 4px solid #2d64c8;
+}
+label {
+    display: inline-block;
+    margin-bottom: -0.5rem;
+    font-size: 16px;
+    padding-left: 15%;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.6em + .75rem + 2px);
+    padding: 2px 2px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.t_form{
+	text-align: right;
+    color: #666666;
+}
+.arraerer_p_1 {
+    background: #2d64c8;
+    height: 36px;
+    padding-top: 5px;
+    padding-bottom: 3.1%;
+    padding-left: 2%;
+    color: #fff;
+    font-size: 21px;
+}
+.dot-circle{
+	font-size: 24px;
+	color: #2d64c8;
+}
+.table td, .table th {
+    padding: 1rem;
+    vertical-align: top;
+    border: 1px solid #c5c5c5;
+}
+.price1 thead th {
+    vertical-align: middle;
+    border-bottom: 2px solid #dee2e6;
+    text-align: center;
+	background-color:#bbdcf0;
+	color:#555555;
+}
+
+.price1 td, .price1 th {
+    padding: 1rem;
+    vertical-align: top;
+    border: 1px solid #c5c5c5;
+    text-align: center;
+    color: #555555;
+}
+.price_v2 .tb-1 {
+    width: 70%;
+    background-color: #f4f3f4;
+}
+.tb-3{
+	border-right:hidden!important;
+    border-bottom: hidden!important;
+	text-align:left!important;
+	padding-left: 7%!important;
+}
+.tb-4{
+	border-left:hidden!important;
+    border-bottom: hidden!important;
+}
+.tb-5{
+	border-left:hidden!important; 
+	text-align:left!important;
+	padding-left: 7%!important;
+}
+.tb-6{
+	border-left:hidden!important;
+}
+.table_text_u_black {
+	color:#000;
+}
+@media only screen and (max-width: 767px)  {
+
+.company_bg_sky {
+    width: 100%;
+    height: 150px;
+}
+}
+@media only screen and (min-width: 768px)  {
+
+
+}

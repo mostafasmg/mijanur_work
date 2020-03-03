@@ -1,0 +1,158 @@
+@charset "Shift-jis";
+
+/* ================================ */
+/*       以下項目の横幅定義用       */
+/* ================================ */
+.sl_table .none
+{
+    display:none;
+}
+.sl_table .detail
+{
+    width:55px;
+    text-align:center;
+}
+.sl_table .btn
+{
+    width:60px;
+    text-align:center;
+}
+.sl_table .date
+{
+    width:125px;
+}
+.sl_table .weekday
+{
+    width:130px;
+}
+.sl_table .datetime
+{
+    width:180px;
+}
+.sl_table .time
+{
+    width:100px;
+}
+.sl_table .money
+{
+    width:120px;
+}
+.sl_table .title
+{
+    width:300px;
+}
+.sl_table .delflg
+{
+    width:60px;
+}
+.sl_table .id
+{
+    width:60px;
+}
+.sl_table .sample_date
+{
+    width:200px;
+}
+
+.sl_table .customer_name
+{
+    width:200px;
+}
+
+.sl_table .zipcode
+{
+    width:100px;
+}
+
+.sl_table .address
+{
+    width:300px;
+}
+
+.sl_table .tel
+{
+    width:100px;
+}
+
+.sl_table .fax
+{
+    width:100px;
+}
+
+.sl_table .url
+{
+    width:200px;
+}
+
+.sl_table .customer_type
+{
+    width:80px;
+}
+
+.sl_table .status
+{
+    width:100px;
+}
+
+.sl_table .loginid
+{
+    width:100px;
+}
+
+.sl_table .price
+{
+    width:100px;
+    text-align:right;
+}
+
+.sl_table .order_name
+{
+    width:250px;
+}
+
+/* 2019.07.23 S: 新項目追加 */
+.sl_table .industry
+{
+    width:150px;
+}
+
+.sl_table .demand_details
+{
+    width:300px;
+}
+
+.sl_table .payment_site
+{
+    width:110px;
+}
+
+.sl_table .payment_method
+{
+    width:100px;
+}
+
+.sl_table .prefectures
+{
+    width:70px;
+}
+
+.sl_table .document_url
+{
+    width:250px;
+}
+
+.sl_table .demand_status
+{
+    width:100px;
+}
+/* 2019.07.23 E: 新項目追加 */
+
+.sl_table .date_fromto
+{
+    width:280px;
+}
+
+.sl_table .parson_name
+{
+    width:150px;
+}

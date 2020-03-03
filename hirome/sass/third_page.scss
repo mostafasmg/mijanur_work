@@ -1,0 +1,93 @@
+@import "partials/init";
+@import "partials/variable";
+@import "partials/mixins";
+
+/* header style start */
+.header_third {
+    width: 100%;
+    background: url(../images/home/1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* header style end */
+
+
+/* about style start */
+.about {
+    background: url(../images/Page_3_img/saection1-3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* about style end */
+
+
+
+/* gallery style start */
+.gallery {
+    background: url(../images/Page_3_img/saection2-3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* gallery style end */
+
+
+
+/* reservation style start */
+.reservation {
+    background: url(../images/second/15.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    .content {
+        .input_field {
+            input {
+                background: #E47776;
+            }
+        }
+        button {
+            background: #E47776;
+            &:hover {
+                background: darken(#E47776, 10%);
+            }
+        }
+    }
+}
+/* reservation style end */
+
+
+
+/* schedule style start */
+.schedule {
+    padding: 5rem 0 4rem;
+/*    background: url(../images/Page_2_img/section-5.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    h4 {
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .item {
+        text-align: center;
+        border: 2px solid $secondary-color;
+        border-radius: 4px;
+        padding: 2rem;
+        /* 2019.06.25 S:à íuí≤êÆ */
+        /*margin-bottom: 30px;
+        margin-bottom: 0px;
+        /* 2019.06.25 E:à íuí≤êÆ */
+        h5 {
+            font-weight: bold;
+            color: $secondary-color;
+        }
+        p {
+            margin-bottom: 0;
+            font-weight: bold;
+        }
+    }
+}
+/* schedule style end */

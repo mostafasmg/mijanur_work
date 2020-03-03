@@ -1,0 +1,285 @@
+@charset "Shift-jis";
+
+/* ================================ */
+/*       以下項目の横幅定義用       */
+/* ================================ */
+.sl_table .none
+{
+    display:none;
+}
+.sl_table .detail
+{
+    width:55px;
+    text-align:center;
+}
+.sl_table .btn
+{
+    width:60px;
+    text-align:center;
+}
+.sl_table .date
+{
+    width:140px;
+}
+.sl_table .weekday
+{
+    width:130px;
+}
+ .sample
+{
+    width:180px;
+}
+
+ .sc_koumoku
+{
+    width:180px;
+}
+
+ .sc_bunrui
+{
+    width:130px;
+}
+
+ .sc_template_name
+{
+    width:235px;
+}
+
+ .sc_comment
+{
+    width:470px;
+}
+ .sc_icon_type
+{
+    width:100px;
+}
+ .sc_caption
+{
+    width:250px;
+}
+ .sc_display_flg
+{
+    width:90px;
+}
+ .sc_date_from_to
+{
+    width:270px;
+}
+
+ .sc_member_name
+{
+    width:200px;
+}
+
+ .sc_access_type
+{
+    width:120px;
+}
+
+ .sc_datetime
+{
+    width:220px;
+}
+
+
+/* 編集ボタン、削除ボタン */
+#sl_main td a{
+    height:22px;
+    line-height:22px;
+    font-size:90%;
+    width:50px;
+    /*font-size:1.35em;*/
+    /*padding-top:10px;*/
+    /*padding-bottom:20px;*/
+    margin-top:2px;
+    margin-bottom:2px;
+    /*margin-left:5px;*/
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background: #50A06A;
+    border-radius: 2px;
+    color: #fff;
+    -webkit-transition: none;
+    transition: none;
+}
+#sl_main td a[href*="delcheck"] {
+  background: #A74A63;
+}
+
+/* 写真必要状態 */
+#sl_main td p{
+    height:22px;
+    line-height:22px;
+    font-size:90%;
+    width:50px;
+    /*font-size:1.35em;*/
+    /*padding-top:10px;*/
+    /*padding-bottom:20px;*/
+    margin-top:2px;
+    margin-bottom:2px;
+    /*margin-left:5px;*/
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background: #C09002;
+    border-radius: 2px;
+    color: #fff;
+    -webkit-transition: none;
+    transition: none;
+}
+#sl_main td p.notChecked{
+    height:22px;
+    line-height:22px;
+    font-size:90%;
+    width:50px;
+    /*font-size:1.35em;*/
+    /*padding-top:10px;*/
+    /*padding-bottom:20px;*/
+    margin-top:2px;
+    margin-bottom:2px;
+    /*margin-left:5px;*/
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    outline:none;
+    background: #D0C0AA;
+    border-radius: 2px;
+    color: #fff;
+    -webkit-transition: none;
+    transition: none;
+}
+
+.sc_len4
+{
+    width:80px;
+}
+.sc_len15
+{
+    width:150px;
+}
+.sc_len50
+{
+    width:150px;
+}
+.sc_len200
+{
+    width:400px;
+}
+
+/* 顧客マスタ */
+.sc_customer_name
+{
+    width:140px;
+}
+.sc_address
+{
+    width:300px;
+}
+.sc_tel
+{
+    width:140px;
+}
+.sc_mail
+{
+    width:300px;
+}
+.sc_addinfo
+{
+    width:200px;
+}
+.sc_purchase_date
+{
+    width:140px;
+}
+
+/*2018.05.11追加*/
+
+.sc_staff_name
+{
+    width:140px;
+}
+
+.sc_staff_kana
+{
+    width:160px;
+}
+
+.sc_company_name
+{
+    width:160px;
+}
+
+.sc_company_kana
+{
+    width:160px;
+}
+
+.sc_sex
+{
+    width:50px;
+}
+
+.sc_zipcode
+{
+    width:120px;
+}
+
+.sc_position
+{
+    width:100px;
+}
+.sc_entry_status
+{
+    width:100px;
+}
+.sc_file_name
+{
+    width:200px;
+}
+.sc_file_type
+{
+    width:110px;
+}
+.sc_permission
+{
+    width:170px;
+}
+.sc_comment
+{
+    width:290px;
+}
+
+.sl_table .download
+{
+    width:90px;
+    text-align:center;
+}
+.sc_seqno
+{
+    width:100px;
+}
+
+/* ダウンロードリンク */
+.sl_table .downloadlink {
+    width:90px;
+}
+
+.sl_table .sc_link_url
+{
+    width:320px;
+}
+
+/* 会員情報追加 */
+
+.sl_table .any_status
+{
+    width:140px;
+}
+.sl_table .sc_login_key
+{
+    width:100px;
+}
+

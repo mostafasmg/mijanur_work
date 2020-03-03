@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'HGGyoshotai';
+    src: url('HGGyoshotai.eot');
+    src: url('HGGyoshotai.eot?#iefix') format('embedded-opentype'),
+        url('HGGyoshotai.woff2') format('woff2'),
+        url('HGGyoshotai.woff') format('woff'),
+        url('HGGyoshotai.ttf') format('truetype'),
+        url('HGGyoshotai.svg#HGGyoshotai') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

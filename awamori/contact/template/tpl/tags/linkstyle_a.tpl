@@ -1,0 +1,1 @@
+<a href="++[sys_href]" target="++[sys_target]">++[sys_text]</a>

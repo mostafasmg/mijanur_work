@@ -1,0 +1,184 @@
+
+@media only screen and (max-width: 767px) {
+.cup_1 {
+    display: block;
+    position: relative;
+    top: 109px;
+    left: -14%;
+}
+	.cup_num {
+    position: relative;
+    right: 49%;
+    bottom: -10px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+}
+	.cup_num_1 {
+    position: relative;
+    right: 45%;
+    bottom: -8px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+}
+	.img_body_wave img.cup_1_img {
+    width: 54%;
+}
+	span.top_box_h_text {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    top: -40px;
+    font-weight: 800;
+	}
+	.box_d_img {
+    height: auto;
+	}
+	
+	.top_img img {
+		margin-left: 0px;
+	}
+	.img_body_wave{
+		margin-top: 30px;
+	}
+	.form_text_div {
+		font-size: 18px;
+		font-weight: 600;
+		text-align: center;
+	}
+	.img_body_outline {
+		padding: 18% 0 22%;
+	}
+	ul.nav.navbar-nav li a {
+		color: #000;
+	}
+.navbar{
+		padding: 0;
+}
+.container-fluid{
+		padding-right: 0;
+		padding-left: 0;
+		overflow-x: hidden;
+}
+}
+@media only screen and (max-width: 577px) {
+	.for_padding{
+		padding-right:0px;
+	}
+	.for_padding1{
+		padding-left:0px;
+	}
+	.cup_1 {
+    display: block;
+    position: relative;
+    top: 92px;
+    left: -14%;
+}
+}
+@media only screen and (max-width: 425px) {
+	.cup_1 {
+    display: block;
+    position: relative;
+    top: 67px;
+    left: -14%;
+}
+}
+@media only screen and (max-width: 375px) {
+	.cup_1 {
+    display: block;
+    position: relative;
+    top: 55px;
+    left: -14%;
+}
+}
+@media only screen and (max-width: 991px) {
+	
+}
+@media only screen and (max-width: 1050px) {
+	.logo-text a {
+    font-size: 22px;
+	}
+	.logo-jl-42,span.bfak{
+    font-size: 11px;
+	}
+	p.logo-jl-4 {
+    margin-bottom: 0;
+}
+}
+/* @media only screen and (min-width: 1200px) { */
+	/* .custom_container { */
+		/* max-width: 650px; */
+	/* } */
+/* } */
+@media only screen and (min-width: 992px) {
+	.navbar-inverse{
+		display:none;
+	}
+	
+}
+@media only screen and (min-width: 1367px){
+	.left_phone a .logo-jl-3 {
+		font-size: 26px;
+	}
+	.left_phone{
+		width:50%;
+	}
+	
+}
+@media only screen and (min-width: 578px){
+	.for_padding{
+		padding:0px;
+	}
+	.for_padding1{
+		padding-left:0px;
+		margin-left: -13px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 992px){
+	.img-bg-left_2{
+    background-image: url(../images/bg-image.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: top 10% left -45%;
+    /* margin-top: -18px; */
+    /* padding-bottom: 50px; */
+    background-size: 50%;
+}
+.img-bg-left_3{
+    background-image: url(../images/bg-image.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: top 10% left -45%;
+    /* margin-top: -18px; */
+    /* padding-bottom: 50px; */
+    background-size: 50%;
+}
+.img-bg-right_2{
+    background-image: url(../images/bg-image.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: bottom 10% right -45%;
+    /* margin-top: -18px; */
+    /* padding-bottom: 50px; */
+    background-size: 50%;
+}
+	.labor_bur {
+		padding: 0px;
+	}
+	
+}
+@media only screen and (min-width: 767px) and (max-width: 1199px){
+	.labor_bur {
+		padding: 0px;
+	}
+	.information a {
+    font-size: 10px;
+	}
+	.advisory {
+		margin-left: 0px;
+	}
+	
+}
